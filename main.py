@@ -13,40 +13,36 @@ from readers.figure import Figure
 from readers.qasper_reader import QasperReader
 # import nltk
 
-def vertex_ai_init(
-        experiment: None,
-        encryption_spec_key_name: None,
-        location="europe-west3",
-        staging_bucket="vqa-result",
-        project="VQA Evaluation",
-        credentials="C:\\Users\\DemonsAH\\Desktop\\KIT\\WS2023_24\\Abschlussarbeit\\vqa-evaluation-d28f067cc5d7.json",
-        service_account="demonsah",
-    ):
-        from google.cloud import aiplatform
+def BLIP_test():
+    import requests
+    from PIL import Image
+    from transformers import Blip2Processor, Blip2ForConditionalGeneration
 
-        aiplatform.init(
-            project=project,
-            location=location,
-            experiment=experiment,
-            staging_bucket=staging_bucket,
-            credentials=credentials,
-            encryption_spec_key_name=encryption_spec_key_name,
-            service_account=service_account,
-        )
+    processor = Blip2Processor.from_pretrained("Salesforce/blip2-opt-2.7b")
+    model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b")
+
+    img_url = 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/demo.jpg'
+    raw_image = Image.open(requests.get(img_url, stream=True).raw).convert('RGB')
+
+    question = "how many dogs are in the picture?"
+    inputs = processor(raw_image, question, return_tensors="pt")
+
+    out = model.generate(**inputs)
+    print(processor.decode(out[0], skip_special_tokens=True).strip())
 
 
 def general_test():
-    vertex_ai_init(None, None, None, None)
-
+    # vertex_ai_init(None, None)
+    # vertex_ai_test()
     # first step to test qasper
-    # articles = qasper_read_test()
-
+    articles = qasper_read_test()
+    # BLIP_test()
     # calculate and show some basic infos about qasper
     # count_and_show(articles)
-    # seperate()
-    # matching_qap_test(articles)
+    seperate()
+    matching_qap_test(articles)
     # mqag_generate_test()
-    # evidence_qap_test(articles)
+    evidence_qap_test(articles)
     # TODO some regex test demo
     # text = "FIGREF1gui"
     # print(re.match(r'(.*)FIGREF([0-9]+)(.*)', text))
@@ -172,17 +168,18 @@ def general_test():
 
 def matching_qap_test(articles):
     evaluator = MatchingQAEvaluator(articles)
-    (gcount, bcount, ccount) = evaluator.evaluate()
-    print("%d question answer pairs in general" % gcount)
-    print("%d pairs answered correct with figures" % bcount)
-    print("In comparison, %d pairs answered correct with captions" % ccount)
+    evaluator.evaluate()
+    print("matching_qap.json output finished")
+    # print("%d question answer pairs in general" % gcount)
+    # print("%d pairs answered correct with figures" % bcount)
+    # print("In comparison, %d pairs answered correct with captions" % ccount)
 
 
 def evidence_qap_test(articles):
     evaluator = EviQAEvaluator(articles)
     bleu_scores = evaluator.evaluate()
-    qap_count = len(bleu_scores)
-    print("There are %d question pairs and the average score is %f", qap_count, sum(bleu_scores) / qap_count)
+    # qap_count = len(bleu_scores)
+    # print("There are %d question pairs and the average score is %f", qap_count, sum(bleu_scores) / qap_count)
 
 
 def qasper_read_test():

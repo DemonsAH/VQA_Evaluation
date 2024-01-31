@@ -36,7 +36,7 @@ class MatchingQAPairGenerator:
             if len(figures) >= option_num:
                 self.groups.append(figures)
             else:
-                waiting_list.append(figures)
+                waiting_list.extend(figures)
                 if len(waiting_list) >= option_num:
                     self.groups.append(waiting_list)
                     waiting_list.clear()
