@@ -1,4 +1,5 @@
 from evaluators.preprocessor import Preprocessor
+from evaluators.shortener import Shortener
 from readers.figure import Figure
 from PIL import Image
 
@@ -27,10 +28,10 @@ class MatchingQAPair:
     def get_options_comp_prep(self):
         result = []
         prep = Preprocessor()
+        shortener = Shortener()
         for option in self.options:
             option_str = Figure.get_caption(option)
-            prep = Preprocessor()
-            result.append(Preprocessor.process(prep, option_str))
+            result.append(Shortener.shorten_words(shortener, Preprocessor.process(prep, option_str)))
         return result
 
     def get_options_dir(self):

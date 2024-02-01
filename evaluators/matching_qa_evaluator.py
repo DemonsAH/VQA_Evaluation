@@ -56,10 +56,10 @@ class MatchingQAEvaluator:
             surfix_comp = "\nAnswer this multiple choice question: Based on the provided description of a figure, please select the most suitable caption. Answer only with the option ID. Here are the options:"
             # answer = self.run_model(prefix + qap.question + surfix, MatchingQAPair.get_options(qap))
             # adding questions element
-            qap_dict['question_comp'] = prefix_comp + qap.question + surfix_comp
-            qap_dict['question_comp_prep'] = prefix_comp + prep_question + surfix_comp
             qap_dict['question'] = prefix + qap.question + surfix
+            qap_dict['question_comp'] = prefix_comp + qap.question + surfix_comp
             qap_dict['question_prep'] = prefix + prep_question + surfix
+            qap_dict['question_comp_prep'] = prefix_comp + prep_question + surfix_comp
             qap_dict['reference'] = qap.question
             qap_dict['reference_prep'] = prep_question
             # adding options into elements
