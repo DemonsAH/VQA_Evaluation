@@ -5,6 +5,7 @@ from transformers import Pix2StructProcessor, Pix2StructForConditionalGeneration
 
 import constants
 from evaluators.preprocessor import Preprocessor
+from evaluators.shortener import Shortener
 from generators.matching_qa_generator import MatchingQAPairGenerator
 from generators.matching_qa_pair import MatchingQAPair
 from readers.figure import Figure
@@ -35,6 +36,7 @@ class MatchingQAEvaluator:
         self.qaps = self.generator.qaps
         self.blank_png = Image.open(constants.blank_png_dir)
         self.preprocessor = Preprocessor()
+        self.shortener = Shortener()
 
     def evaluate(self):
         # qap_count = 0
@@ -43,15 +45,15 @@ class MatchingQAEvaluator:
         qap_dicts = []
         for qap in self.qaps:
             qap_dict = {}
-            option_num = len(qap.options)
-            symbols, end = get_option_symbols()
-            prep_question = Preprocessor.process(self.preprocessor, qap.question)
+            # option_num = len(qap.options)
+            # symbols, end = get_option_symbols()
+            prep_question = Shortener.shorten_words(self.shortener, Preprocessor.process(self.preprocessor, qap.question))
             # heading = "Give the order of the right figure that match the given reference:"
-            prefix = "Here is a description of an image:\n"
-            surfix = "\nBased on the provided description of an image, please select the most suitable image. Provide only the identifier(an integer) of the chosen option. Here are the options:"
+            prefix = "Here is a description of a figure:\n"
+            surfix = "\nAnswer this multiple choice question: Based on the provided description of a figure, please select the most suitable image. Answer only with the option ID. Here are the options:"
             prefix_comp = "Here is a description of an image:\n"
             # surfix_comp = "\nPlease select one from following captions(0 or 1 or 2 or 3) which fits the given description best."
-            surfix_comp = "\nBased on the provided description of an image, please select the most suitable caption. Provide only the identifier(an integer) of the chosen option. Here are the options:"
+            surfix_comp = "\nAnswer this multiple choice question: Based on the provided description of a figure, please select the most suitable caption. Answer only with the option ID. Here are the options:"
             # answer = self.run_model(prefix + qap.question + surfix, MatchingQAPair.get_options(qap))
             # adding questions element
             qap_dict['question_comp'] = prefix_comp + qap.question + surfix_comp
