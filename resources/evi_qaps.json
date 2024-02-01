@@ -1,0 +1,2318 @@
+[
+    {
+        "question": "What are the results?",
+        "answer": "Using all data to train: AL -- BiGRU achieved 0.843 accuracy, AL -- BERT achieved 0.863 accuracy, AL+CA+CO -- BiGRU achieved 0.866 accuracy, AL+CA+CO -- BERT achieved 0.835, accuracy, ACP -- BiGRU achieved 0.919 accuracy, ACP -- BERT achived 0.933, accuracy, ACP+AL+CA+CO -- BiGRU achieved 0.917 accuracy, ACP+AL+CA+CO -- BERT achieved 0.913 accuracy. \nUsing a subset to train: BERT achieved 0.876 accuracy using ACP (6K), BERT achieved 0.886 accuracy using ACP (6K) + AL, BiGRU achieved 0.830 accuracy using ACP (6K), BiGRU achieved 0.879 accuracy using ACP (6K) + AL + CA + CO.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00694\\5-Table3-1.png",
+        "question_prep": "what are the results?"
+    },
+    {
+        "question": "What are the results?",
+        "answer": "Using all data to train: AL -- BiGRU achieved 0.843 accuracy, AL -- BERT achieved 0.863 accuracy, AL+CA+CO -- BiGRU achieved 0.866 accuracy, AL+CA+CO -- BERT achieved 0.835, accuracy, ACP -- BiGRU achieved 0.919 accuracy, ACP -- BERT achived 0.933, accuracy, ACP+AL+CA+CO -- BiGRU achieved 0.917 accuracy, ACP+AL+CA+CO -- BERT achieved 0.913 accuracy. \nUsing a subset to train: BERT achieved 0.876 accuracy using ACP (6K), BERT achieved 0.886 accuracy using ACP (6K) + AL, BiGRU achieved 0.830 accuracy using ACP (6K), BiGRU achieved 0.879 accuracy using ACP (6K) + AL + CA + CO.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00694\\5-Table4-1.png",
+        "question_prep": "what are the results?"
+    },
+    {
+        "question": "How big is the Japanese data?",
+        "answer": "7000000 pairs of events were extracted from the Japanese Web corpus, 529850 pairs of events were extracted from the ACP corpus",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00694\\4-Table1-1.png",
+        "question_prep": "how big is the japanese data?"
+    },
+    {
+        "question": "How big is the Japanese data?",
+        "answer": "7000000 pairs of events were extracted from the Japanese Web corpus, 529850 pairs of events were extracted from the ACP corpus",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00694\\4-Table2-1.png",
+        "question_prep": "how big is the japanese data?"
+    },
+    {
+        "question": "How big is the Japanese data?",
+        "answer": "The ACP corpus has around 700k events split into positive and negative polarity ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00694\\4-Table2-1.png",
+        "question_prep": "how big is the japanese data?"
+    },
+    {
+        "question": "How big are improvements of supervszed learning results trained on smalled labeled data enhanced with proposed approach copared to basic approach?",
+        "answer": "3%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00694\\5-Table4-1.png",
+        "question_prep": "how big are improvements of supervszed learning results trained on smalled labeled data enhanced with proposed approach copared to basic approach?"
+    },
+    {
+        "question": "Does the paper report macro F1?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.07723\\8-Table7-1.png",
+        "question_prep": "does the paper report macro f1?"
+    },
+    {
+        "question": "Does the paper report macro F1?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.07723\\8-Table7-1.png",
+        "question_prep": "does the paper report macro f1?"
+    },
+    {
+        "question": "What baselines is the proposed model compared against?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.06606\\5-TableIII-1.png",
+        "question_prep": "what baselines is the proposed model compared against?"
+    },
+    {
+        "question": "How is the clinical text structuring task defined?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.06606\\1-Figure1-1.png",
+        "question_prep": "how is the clinical text structuring task defined?"
+    },
+    {
+        "question": "What are the three measures of bias which are reduced in experiments?",
+        "answer": "RIPA, Neighborhood Metric, WEAT",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.14497\\4-Table1-1.png",
+        "question_prep": "what are the three measures of bias which are reduced in experiments?"
+    },
+    {
+        "question": "Do they list all the named entity types present?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.12218\\5-Table2-1.png",
+        "question_prep": "do they list all the named entity types present?"
+    },
+    {
+        "question": "how is quality measured?",
+        "answer": "Accuracy and the macro-F1 (averaged F1 over positive and negative classes) are used as a measure of quality.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1904.09678\\4-Table1-1.png",
+        "question_prep": "how is quality measured?"
+    },
+    {
+        "question": "Does the model use both spectrogram images and raw waveforms as features?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.04269\\11-Table4-1.png",
+        "question_prep": "does the model use both spectrogram images and raw waveforms as features?"
+    },
+    {
+        "question": "By how much do they outperform other models in the sentiment in intent classification tasks?",
+        "answer": "In the sentiment classification task by 6% to 8% and in the intent classification task by 0.94% on average",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.00137\\16-Table7-1.png",
+        "question_prep": "by how much do they outperform other models in the sentiment in intent classification tasks?"
+    },
+    {
+        "question": "What is the baseline for the experiments?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.06644\\2-Table1-1.png",
+        "question_prep": "what is the baseline for the experiments?"
+    },
+    {
+        "question": "By how much does their system outperform the lexicon-based models?",
+        "answer": "Under the retrieval evaluation setting, their proposed model + IR2 had better MRR than NVDM by 0.3769, better MR by 4.6, and better Recall@10 by  20 . \nUnder the generative evaluation setting the proposed model + IR2 had better BLEU by 0.044 , better CIDEr by 0.033, better ROUGE by 0.032, and better METEOR by 0.029",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1809.04960\\5-Table2-1.png",
+        "question_prep": "by how much does their system outperform the lexicon-based models?"
+    },
+    {
+        "question": "By how much does their system outperform the lexicon-based models?",
+        "answer": "Under the retrieval evaluation setting, their proposed model + IR2 had better MRR than NVDM by 0.3769, better MR by 4.6, and better Recall@10 by  20 . \nUnder the generative evaluation setting the proposed model + IR2 had better BLEU by 0.044 , better CIDEr by 0.033, better ROUGE by 0.032, and better METEOR by 0.029",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1809.04960\\5-Table3-1.png",
+        "question_prep": "by how much does their system outperform the lexicon-based models?"
+    },
+    {
+        "question": "By how much does their system outperform the lexicon-based models?",
+        "answer": "Proposed model is better than both lexical based models by significan margin in all metrics: BLEU 0.261 vs 0.250, ROUGLE 0.162 vs 0.155 etc.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1809.04960\\5-Table2-1.png",
+        "question_prep": "by how much does their system outperform the lexicon-based models?"
+    },
+    {
+        "question": "By how much does their system outperform the lexicon-based models?",
+        "answer": "Proposed model is better than both lexical based models by significan margin in all metrics: BLEU 0.261 vs 0.250, ROUGLE 0.162 vs 0.155 etc.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1809.04960\\5-Table3-1.png",
+        "question_prep": "by how much does their system outperform the lexicon-based models?"
+    },
+    {
+        "question": "Is the dataset multilingual?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1708.05873\\2-Figure2-1.png",
+        "question_prep": "is the dataset multilingual?"
+    },
+    {
+        "question": "How better is accuracy of new model compared to previously reported models?",
+        "answer": "Average accuracy of proposed model vs best prevous result:\nSingle-task Training: 57.57 vs 55.06\nMulti-task Training: 50.17 vs 50.59",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.08859\\7-Table1-1.png",
+        "question_prep": "how better is accuracy of new model compared to previously reported models?"
+    },
+    {
+        "question": "Did the annotators agreed and how much?",
+        "answer": "For event types and participant types, there was a moderate to substantial level of agreement using the Fleiss' Kappa. For coreference chain annotation, there was average agreement of 90.5%.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1703.05260\\6-Figure4-1.png",
+        "question_prep": "did the annotators agreed and how much?"
+    },
+    {
+        "question": "Did the annotators agreed and how much?",
+        "answer": "Moderate agreement of 0.64-0.68 Fleiss\u2019 Kappa over event type labels, 0.77 Fleiss\u2019 Kappa over participant labels, and good agreement of 90.5% over coreference information.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1703.05260\\6-Figure4-1.png",
+        "question_prep": "did the annotators agreed and how much?"
+    },
+    {
+        "question": "What datasets are used to evaluate this approach?",
+        "answer": " Kinship and Nations knowledge graphs, YAGO3-10 and WN18KGs knowledge graphs ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1905.00563\\5-Table2-1.png",
+        "question_prep": "what datasets are used to evaluate this approach?"
+    },
+    {
+        "question": "How big is the performance difference between this method and the baseline?",
+        "answer": "Comparing with the highest performing baseline: 1.3 points on ACE2004 dataset, 0.6 points on CWEB dataset, and 0.86 points in the average of all scores.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1902.00330\\7-Table3-1.png",
+        "question_prep": "how big is the performance difference between this method and the baseline?"
+    },
+    {
+        "question": "what are the mentioned cues?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1902.00330\\3-Figure2-1.png",
+        "question_prep": "what are the mentioned cues?"
+    },
+    {
+        "question": "Which languages do they validate on?",
+        "answer": "Ar, Bg, Ca, Cs, Da, De, En, Es, Eu, Fa, Fi, Fr, Ga, He, Hi, Hu, It, La, Lt, Lv, Nb, Nl, Nn, PL, Pt, Ro, Ru, Sl, Sv, Tr, Uk, Ur",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1810.06743\\8-Table3-1.png",
+        "question_prep": "which languages do they validate on?"
+    },
+    {
+        "question": "Which languages do they validate on?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1810.06743\\8-Table4-1.png",
+        "question_prep": "which languages do they validate on?"
+    },
+    {
+        "question": "Which languages do they validate on?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1810.06743\\8-Table3-1.png",
+        "question_prep": "which languages do they validate on?"
+    },
+    {
+        "question": "what amounts of size were used on german-english?",
+        "answer": "Training data with 159000, 80000, 40000, 20000, 10000 and 5000 sentences, and 7584 sentences for development",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1905.11901\\3-Table1-1.png",
+        "question_prep": "what amounts of size were used on german-english?"
+    },
+    {
+        "question": "what amounts of size were used on german-english?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1905.11901\\4-Table2-1.png",
+        "question_prep": "what amounts of size were used on german-english?"
+    },
+    {
+        "question": "How big is the dataset?",
+        "answer": "Resulting dataset was 7934 messages for train and 700 messages for test.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.13109\\4-Table3-1.png",
+        "question_prep": "how big is the dataset?"
+    },
+    {
+        "question": "How they demonstrate that language-neutral component is sufficiently general in terms of modeling semantics to allow high-accuracy word-alignment?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.03310\\4-Table4-1.png",
+        "question_prep": "how they demonstrate that language-neutral component is sufficiently general in terms of modeling semantics to allow high-accuracy word-alignment?"
+    },
+    {
+        "question": "what is the architecture of the baseline model?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1703.04617\\2-Figure1-1.png",
+        "question_prep": "what is the architecture of the baseline model?"
+    },
+    {
+        "question": "What are their correlation results?",
+        "answer": "High correlation results range from 0.472 to 0.936",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00578\\4-Table1-1.png",
+        "question_prep": "what are their correlation results?"
+    },
+    {
+        "question": "What linguistic quality aspects are addressed?",
+        "answer": "Grammaticality, non-redundancy, referential clarity, focus, structure & coherence",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00578\\1-Figure1-1.png",
+        "question_prep": "what linguistic quality aspects are addressed?"
+    },
+    {
+        "question": "What is typical GAN architecture for each text-to-image synhesis group?",
+        "answer": "Semantic Enhancement GANs: DC-GANs, MC-GAN\nResolution Enhancement GANs: StackGANs, AttnGAN, HDGAN\nDiversity Enhancement GANs: AC-GAN, TAC-GAN etc.\nMotion Enhancement GAGs: T2S, T2V, StoryGAN",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.09399\\12-Figure9-1.png",
+        "question_prep": "what is typical gan architecture for each text-to-image synhesis group?"
+    },
+    {
+        "question": "Which downstream sentence-level tasks do they evaluate on?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1904.05584\\15-TableB.2-1.png",
+        "question_prep": "which downstream sentence-level tasks do they evaluate on?"
+    },
+    {
+        "question": "How much better is performance of proposed method than state-of-the-art methods in experiments?",
+        "answer": "Accuracy of best proposed method KANE (LSTM+Concatenation) are 0.8011, 0.8592, 0.8605 compared to best state-of-the art method R-GCN + LR 0.7721, 0.8193, 0.8229 on three datasets respectively.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.03891\\6-Table2-1.png",
+        "question_prep": "how much better is performance of proposed method than state-of-the-art methods in experiments?"
+    },
+    {
+        "question": "Do they report results only on English data?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1610.00879\\2-Figure1-1.png",
+        "question_prep": "do they report results only on english data?"
+    },
+    {
+        "question": "What baseline model is used?",
+        "answer": "Human evaluators",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1610.00879\\4-Table5-1.png",
+        "question_prep": "what baseline model is used?"
+    },
+    {
+        "question": "What stylistic features are used to detect drunk texts?",
+        "answer": "LDA unigrams (Presence/Count), POS Ratio, #Named Entity Mentions, #Discourse Connectors,  Spelling errors, Repeated characters, Capitalisation, Length,  Emoticon (Presence/Count ) \n and Sentiment Ratio",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1610.00879\\3-Table1-1.png",
+        "question_prep": "what stylistic features are used to detect drunk texts?"
+    },
+    {
+        "question": "What stylistic features are used to detect drunk texts?",
+        "answer": "LDA unigrams (Presence/Count), POS Ratio, #Named Entity Mentions, #Discourse Connectors, Spelling errors, Repeated characters, Capitalization, Length, Emoticon (Presence/Count), Sentiment Ratio.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1610.00879\\3-Table1-1.png",
+        "question_prep": "what stylistic features are used to detect drunk texts?"
+    },
+    {
+        "question": "What is the accuracy of the proposed technique?",
+        "answer": "51.7 and 51.6 on 4th and 8th grade question sets with no curated knowledge. 47.5 and 48.0 on 4th and 8th grade question sets when both solvers are given the same knowledge",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1704.05572\\4-Table2-1.png",
+        "question_prep": "what is the accuracy of the proposed technique?"
+    },
+    {
+        "question": "How much better was the BLSTM-CNN-CRF than the BLSTM-CRF?",
+        "answer": "Best BLSTM-CNN-CRF had F1 score 86.87 vs 86.69 of best BLSTM-CRF ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.07228\\7-Table2-1.png",
+        "question_prep": "how much better was the blstm-cnn-crf than the blstm-crf?"
+    },
+    {
+        "question": "How much performance gap between their approach and the strong handcrafted method?",
+        "answer": "0.007 MAP on Task A, 0.032 MAP on Task B, 0.055 MAP on Task C",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1603.07044\\7-Table4-1.png",
+        "question_prep": "how much performance gap between their approach and the strong handcrafted method?"
+    },
+    {
+        "question": "How big is their model?",
+        "answer": "Proposed model has 1.16 million parameters and 11.04 MB.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1902.09314\\7-Table3-1.png",
+        "question_prep": "how big is their model?"
+    },
+    {
+        "question": "Which tested technique was the worst performer?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.11769\\4-Table4-1.png",
+        "question_prep": "which tested technique was the worst performer?"
+    },
+    {
+        "question": "What is difference in peformance between proposed model and state-of-the art on other question types?",
+        "answer": "For single-span questions, the proposed LARGE-SQUAD improve performance of the MTMSNlarge baseline for 2.1 EM and 1.55 F1.\nFor number type question,  MTMSNlarge baseline  have improvement over LARGE-SQUAD for 3,11  EM and  2,98 F1. \nFor date question,  LARGE-SQUAD have improvements in 2,02 EM but MTMSNlarge have improvement of 4,39 F1.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.13375\\6-Table2-1.png",
+        "question_prep": "what is difference in peformance between proposed model and state-of-the art on other question types?"
+    },
+    {
+        "question": "What is the performance of proposed model on entire DROP dataset?",
+        "answer": "The proposed model achieves  EM 77,63 and F1 80,73  on the test and EM  76,95 and  F1 80,25 on the dev",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.13375\\6-Table3-1.png",
+        "question_prep": "what is the performance of proposed model on entire drop dataset?"
+    },
+    {
+        "question": "Does the system trained only using XR loss outperform the fully supervised neural system?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00430\\7-Table1-1.png",
+        "question_prep": "does the system trained only using xr loss outperform the fully supervised neural system?"
+    },
+    {
+        "question": "How accurate is the aspect based sentiment classifier trained only using the XR loss?",
+        "answer": "BiLSTM-XR-Dev Estimation accuracy is 83.31 for SemEval-15 and 87.68 for SemEval-16.\nBiLSTM-XR accuracy is 83.31 for SemEval-15 and 88.12 for SemEval-16.\n",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00430\\7-Table1-1.png",
+        "question_prep": "how accurate is the aspect based sentiment classifier trained only using the xr loss?"
+    },
+    {
+        "question": "What metrics other than entity tagging are compared?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.00912\\7-Table4-1.png",
+        "question_prep": "what metrics other than entity tagging are compared?"
+    },
+    {
+        "question": "What is the results of multimodal compared to unimodal models?",
+        "answer": "Unimodal LSTM vs Best Multimodal (FCM)\n- F score: 0.703 vs 0.704\n- AUC: 0.732 vs 0.734 \n- Mean Accuracy: 68.3 vs 68.4 ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.03814\\7-Table1-1.png",
+        "question_prep": "what is the results of multimodal compared to unimodal models?"
+    },
+    {
+        "question": "What were their performance results?",
+        "answer": "On SearchSnippets dataset ACC 77.01%, NMI 62.94%, on StackOverflow dataset ACC 51.14%, NMI 49.08%, on Biomedical dataset ACC 43.00%, NMI 38.18%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1701.00185\\22-Table6-1.png",
+        "question_prep": "what were their performance results?"
+    },
+    {
+        "question": "What were their performance results?",
+        "answer": "On SearchSnippets dataset ACC 77.01%, NMI 62.94%, on StackOverflow dataset ACC 51.14%, NMI 49.08%, on Biomedical dataset ACC 43.00%, NMI 38.18%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1701.00185\\23-Table7-1.png",
+        "question_prep": "what were their performance results?"
+    },
+    {
+        "question": "By how much did they outperform the other methods?",
+        "answer": "on SearchSnippets dataset by 6.72% in ACC, by 6.94% in NMI; on Biomedical dataset by 5.77% in ACC, 3.91% in NMI",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1701.00185\\22-Table6-1.png",
+        "question_prep": "by how much did they outperform the other methods?"
+    },
+    {
+        "question": "By how much did they outperform the other methods?",
+        "answer": "on SearchSnippets dataset by 6.72% in ACC, by 6.94% in NMI; on Biomedical dataset by 5.77% in ACC, 3.91% in NMI",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1701.00185\\23-Table7-1.png",
+        "question_prep": "by how much did they outperform the other methods?"
+    },
+    {
+        "question": "What are all 15 types of modifications ilustrated in the dataset?",
+        "answer": "- paraphrase 1\n- paraphrase 2\n- different meaning\n- opposite meaning\n- nonsense\n- minimal change\n- generalization\n- gossip\n- formal sentence\n- non-standard sentence\n- simple sentence\n- possibility\n- ban\n- future\n- past",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.01673\\3-Table2-1.png",
+        "question_prep": "what are all 15 types of modifications ilustrated in the dataset?"
+    },
+    {
+        "question": "What were their results on the three datasets?",
+        "answer": "accuracy of 86.63 on STS, 85.14 on Sanders and 80.9 on HCR",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1706.08032\\5-TableIV-1.png",
+        "question_prep": "what were their results on the three datasets?"
+    },
+    {
+        "question": "What semantic rules are proposed?",
+        "answer": "rules that compute polarity of words after POS tagging or parsing steps",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1706.08032\\3-TableI-1.png",
+        "question_prep": "what semantic rules are proposed?"
+    },
+    {
+        "question": "What is the performance of the model?",
+        "answer": "Experiment 1: ACC around 0.5 with 50% noise rate in worst case - clearly higher than baselines for all noise rates\nExperiment 2: ACC on real noisy datasets: 0.7 on Movie, 0.79 on Laptop, 0.86 on Restaurant (clearly higher than baselines in almost all cases)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00124\\5-Table2-1.png",
+        "question_prep": "what is the performance of the model?"
+    },
+    {
+        "question": "What is the performance of the model?",
+        "answer": "Experiment 1: ACC around 0.5 with 50% noise rate in worst case - clearly higher than baselines for all noise rates\nExperiment 2: ACC on real noisy datasets: 0.7 on Movie, 0.79 on Laptop, 0.86 on Restaurant (clearly higher than baselines in almost all cases)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00124\\5-Figure2-1.png",
+        "question_prep": "what is the performance of the model?"
+    },
+    {
+        "question": "Does the model proposed beat the baseline models for all the values of the masking parameter tested?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00088\\18-Figure4-1.png",
+        "question_prep": "does the model proposed beat the baseline models for all the values of the masking parameter tested?"
+    },
+    {
+        "question": "Does the model proposed beat the baseline models for all the values of the masking parameter tested?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00088\\18-Table9-1.png",
+        "question_prep": "does the model proposed beat the baseline models for all the values of the masking parameter tested?"
+    },
+    {
+        "question": "What was the performance of both approaches on their dataset?",
+        "answer": "ERR of 19.05 with i-vectors and 15.52 with x-vectors",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.01799\\4-Table4-1.png",
+        "question_prep": "what was the performance of both approaches on their dataset?"
+    },
+    {
+        "question": "What genres are covered?",
+        "answer": "genre, entertainment, interview, singing, play, movie, vlog, live broadcast, speech, drama, recitation and advertisement",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.01799\\2-Table1-1.png",
+        "question_prep": "what genres are covered?"
+    },
+    {
+        "question": "Which of the two speech recognition models works better overall on CN-Celeb?",
+        "answer": "x-vector",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.01799\\4-Table4-1.png",
+        "question_prep": "which of the two speech recognition models works better overall on cn-celeb?"
+    },
+    {
+        "question": "By how much is performance on CN-Celeb inferior to performance on VoxCeleb?",
+        "answer": "For i-vector system, performances are 11.75% inferior to voxceleb. For x-vector system, performances are 10.74% inferior to voxceleb",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.01799\\4-Table4-1.png",
+        "question_prep": "by how much is performance on cn-celeb inferior to performance on voxceleb?"
+    },
+    {
+        "question": "On what datasets is the new model evaluated on?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1812.06705\\7-Table2-1.png",
+        "question_prep": "on what datasets is the new model evaluated on?"
+    },
+    {
+        "question": "How do the authors measure performance?",
+        "answer": "Accuracy across six datasets",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1812.06705\\7-Table2-1.png",
+        "question_prep": "how do the authors measure performance?"
+    },
+    {
+        "question": "Are other pretrained language models also evaluated for contextual augmentation? ",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1812.06705\\7-Table2-1.png",
+        "question_prep": "are other pretrained language models also evaluated for contextual augmentation? "
+    },
+    {
+        "question": "What is the latest paper covered by this survey?",
+        "answer": "Kim et al. (2019)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1905.08949\\7-Table2-1.png",
+        "question_prep": "what is the latest paper covered by this survey?"
+    },
+    {
+        "question": "What is the state of the art?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.06286\\4-Table1-1.png",
+        "question_prep": "what is the state of the art?"
+    },
+    {
+        "question": "How does the model compare with the MMR baseline?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1902.00672\\21-Table2-1.png",
+        "question_prep": "how does the model compare with the mmr baseline?"
+    },
+    {
+        "question": "How well did the system do?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.10161\\6-Table4-1.png",
+        "question_prep": "how well did the system do?"
+    },
+    {
+        "question": "How much is proposed model better in perplexity and BLEU score than typical UMT models?",
+        "answer": "Perplexity of the best model is 65.58 compared to best baseline 105.79.\nBleu of the best model is 6.57 compared to best baseline 5.50.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00279\\7-Table3-1.png",
+        "question_prep": "how much is proposed model better in perplexity and bleu score than typical umt models?"
+    },
+    {
+        "question": "What other relations were found in the datasets?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.00819\\5-Figure4-1.png",
+        "question_prep": "what other relations were found in the datasets?"
+    },
+    {
+        "question": "What kind of neural network architecture do they use?",
+        "answer": "CNN",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1907.00758\\1-Figure1-1.png",
+        "question_prep": "what kind of neural network architecture do they use?"
+    },
+    {
+        "question": "What web and user-generated NER datasets are used for the analysis?",
+        "answer": "MUC, CoNLL, ACE, OntoNotes, MSM, Ritter, UMBC",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1701.02877\\4-Table1-1.png",
+        "question_prep": "what web and user-generated ner datasets are used for the analysis?"
+    },
+    {
+        "question": "How big are the datasets?",
+        "answer": "In-house dataset consists of  3716 documents \nACE05 dataset consists of  1635 documents",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.00069\\6-Table2-1.png",
+        "question_prep": "how big are the datasets?"
+    },
+    {
+        "question": "What was the performance of their model?",
+        "answer": "For test-repeated set, EM score of 61.17, F1 of 93.54, ED of 0.75 and GM of 61.36. For test-new set, EM score of 41.71, F1 of 91.02, ED of 1.22 and GM of 41.81",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1810.00663\\8-Table3-1.png",
+        "question_prep": "what was the performance of their model?"
+    },
+    {
+        "question": "What are their initial results on this task?",
+        "answer": "Achieved the highest per-domain scores on Substance (F1 \u2248 0.8) and the lowest scores on Interpersonal and Mood (F1 \u2248 0.5), and show consistency in per-domain performance rankings between MLP and RBF models.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1809.05752\\6-Table5-1.png",
+        "question_prep": "what are their initial results on this task?"
+    },
+    {
+        "question": "What are the different bilingual models employed?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.05154\\4-Table3-1.png",
+        "question_prep": "what are the different bilingual models employed?"
+    },
+    {
+        "question": "Does this approach perform better in the multi-domain or single-domain setting?",
+        "answer": "single-domain setting",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00754\\7-Table3-1.png",
+        "question_prep": "does this approach perform better in the multi-domain or single-domain setting?"
+    },
+    {
+        "question": "What is the difference in recall score between the systems?",
+        "answer": "Between the model and Stanford, Spacy and Flair the differences are 42.91, 25.03, 69.8 with Traditional NERs as reference and  49.88, 43.36, 62.43 with Wikipedia titles as reference.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.11402\\3-Table2-1.png",
+        "question_prep": "what is the difference in recall score between the systems?"
+    },
+    {
+        "question": "What is the difference in recall score between the systems?",
+        "answer": "Between the model and Stanford, Spacy and Flair the differences are 42.91, 25.03, 69.8 with Traditional NERs as reference and  49.88, 43.36, 62.43 with Wikipedia titles as reference.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.11402\\3-Table3-1.png",
+        "question_prep": "what is the difference in recall score between the systems?"
+    },
+    {
+        "question": "What is their f1 score and recall?",
+        "answer": "F1 score and Recall are 68.66, 80.08 with Traditional NERs as reference and 59.56, 69.76 with Wikipedia titles as reference.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.11402\\3-Table2-1.png",
+        "question_prep": "what is their f1 score and recall?"
+    },
+    {
+        "question": "What is their f1 score and recall?",
+        "answer": "F1 score and Recall are 68.66, 80.08 with Traditional NERs as reference and 59.56, 69.76 with Wikipedia titles as reference.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.11402\\3-Table3-1.png",
+        "question_prep": "what is their f1 score and recall?"
+    },
+    {
+        "question": "How many layers does their system have?",
+        "answer": "4 layers",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.11402\\3-Figure1-1.png",
+        "question_prep": "how many layers does their system have?"
+    },
+    {
+        "question": "How big is improvement in performances of proposed model over state of the art?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.00652\\4-Table1-1.png",
+        "question_prep": "how big is improvement in performances of proposed model over state of the art?"
+    },
+    {
+        "question": "What context modelling methods are evaluated?",
+        "answer": "Concat\nTurn\nGate\nAction Copy\nTree Copy\nSQL Attn\nConcat + Action Copy\nConcat + Tree Copy\nConcat + SQL Attn\nTurn + Action Copy\nTurn + Tree Copy\nTurn + SQL Attn\nTurn + SQL Attn + Action Copy",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.00652\\5-Figure5-1.png",
+        "question_prep": "what context modelling methods are evaluated?"
+    },
+    {
+        "question": "Is the baseline a non-heirarchical model like BERT?",
+        "answer": "There were hierarchical and non-hierarchical baselines; BERT was one of those baselines",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1905.06566\\7-Table1-1.png",
+        "question_prep": "is the baseline a non-heirarchical model like bert?"
+    },
+    {
+        "question": "What was their result on Stance Sentiment Emotion Corpus?",
+        "answer": "F1 score of 66.66%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.12569\\5-TableII-1.png",
+        "question_prep": "what was their result on stance sentiment emotion corpus?"
+    },
+    {
+        "question": "What performance did they obtain on the SemEval dataset?",
+        "answer": "F1 score of 82.10%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.12569\\5-TableII-1.png",
+        "question_prep": "what performance did they obtain on the semeval dataset?"
+    },
+    {
+        "question": "What are the state-of-the-art systems?",
+        "answer": "For sentiment analysis UWB, INF-UFRGS-OPINION-MINING, LitisMind, pkudblab and SVM + n-grams + sentiment and for emotion analysis MaxEnt, SVM, LSTM, BiLSTM and CNN",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.12569\\5-TableIII-1.png",
+        "question_prep": "what are the state-of-the-art systems?"
+    },
+    {
+        "question": "What are the state-of-the-art systems?",
+        "answer": "For sentiment analysis UWB, INF-UFRGS-OPINION-MINING, LitisMind, pkudblab and SVM + n-grams + sentiment and for emotion analysis MaxEnt, SVM, LSTM, BiLSTM and CNN",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.12569\\6-TableIV-1.png",
+        "question_prep": "what are the state-of-the-art systems?"
+    },
+    {
+        "question": "Did they compare against other systems?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.04899\\2-Table3-1.png",
+        "question_prep": "did they compare against other systems?"
+    },
+    {
+        "question": "What kind of features are used by the HMM models, and how interpretable are those?",
+        "answer": "A continuous emission HMM uses the hidden states of a 2-layer LSTM as features and a discrete emission HMM uses data as features. \nThe interpretability of the model is shown in Figure 2. ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1606.05320\\4-Figure2-1.png",
+        "question_prep": "what kind of features are used by the hmm models, and how interpretable are those?"
+    },
+    {
+        "question": "What kind of information do the HMMs learn that the LSTMs don't?",
+        "answer": "The HMM can identify punctuation or pick up on vowels.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1606.05320\\4-Figure2-1.png",
+        "question_prep": "what kind of information do the hmms learn that the lstms don't?"
+    },
+    {
+        "question": "How large is the gap in performance between the HMMs and the LSTMs?",
+        "answer": "With similar number of parameters, the log likelihood is about 0.1 lower for LSTMs across datasets. When the number of parameters in LSTMs is increased, their log likelihood is up to 0.7 lower.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1606.05320\\3-Table1-1.png",
+        "question_prep": "how large is the gap in performance between the hmms and the lstms?"
+    },
+    {
+        "question": "what was their system's f1 performance?",
+        "answer": "Proposed model achieves 0.86, 0.924, 0.71 F1 score on SR, HATE, HAR datasets respectively.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1809.10644\\3-Table2-1.png",
+        "question_prep": "what was their system's f1 performance?"
+    },
+    {
+        "question": "Is the supervised morphological learner tested on Japanese?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.03467\\5-Table1-1.png",
+        "question_prep": "is the supervised morphological learner tested on japanese?"
+    },
+    {
+        "question": "How better is proposed method than baselines perpexity wise?",
+        "answer": "Perplexity of proposed MEED model is 19.795 vs 19.913 of next best result on test set.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.07816\\7-Table2-1.png",
+        "question_prep": "how better is proposed method than baselines perpexity wise?"
+    },
+    {
+        "question": "Which training dataset allowed for the best generalization to benchmark sets?",
+        "answer": "MultiNLI",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1810.09774\\6-Table4-1.png",
+        "question_prep": "which training dataset allowed for the best generalization to benchmark sets?"
+    },
+    {
+        "question": "Do the authors report results only on English data?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1906.07668\\4-Table1-1.png",
+        "question_prep": "do the authors report results only on english data?"
+    },
+    {
+        "question": "Do the authors report results only on English data?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1906.07668\\5-Figure5-1.png",
+        "question_prep": "do the authors report results only on english data?"
+    },
+    {
+        "question": "How many natural language explanations are human-written?",
+        "answer": "Totally 6980 validation and test image-sentence pairs have been corrected.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2004.03744\\8-Table3-1.png",
+        "question_prep": "how many natural language explanations are human-written?"
+    },
+    {
+        "question": "What are the baseline state of the art models?",
+        "answer": "Stanford NER, BiLSTM+CRF, LSTM+CNN+CRF, T-NER and BiLSTM+CNN+Co-Attention",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.06888\\8-Table3-1.png",
+        "question_prep": "what are the baseline state of the art models?"
+    },
+    {
+        "question": "What was the result of the highest performing system?",
+        "answer": "For task 1 best F1 score was 0.9391 on closed and 0.9414 on open test.\nFor task2 best result had: Ratio 0.3175 , Satisfaction 64.53, Fluency 0, Turns -1 and Guide 2",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1709.10217\\4-Table4-1.png",
+        "question_prep": "what was the result of the highest performing system?"
+    },
+    {
+        "question": "What was the result of the highest performing system?",
+        "answer": "For task 1 best F1 score was 0.9391 on closed and 0.9414 on open test.\nFor task2 best result had: Ratio 0.3175 , Satisfaction 64.53, Fluency 0, Turns -1 and Guide 2",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1709.10217\\4-Table5-1.png",
+        "question_prep": "what was the result of the highest performing system?"
+    },
+    {
+        "question": "What was the result of the highest performing system?",
+        "answer": "For task 1 best F1 score was 0.9391 on closed and 0.9414 on open test.\nFor task2 best result had: Ratio 0.3175 , Satisfaction 64.53, Fluency 0, Turns -1 and Guide 2",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1709.10217\\5-Table6-1.png",
+        "question_prep": "what was the result of the highest performing system?"
+    },
+    {
+        "question": "What are the baselines that Masque is compared against?",
+        "answer": "BiDAF, Deep Cascade QA, S-Net+CES2S, BERT+Multi-PGNet, Selector+CCG, VNET, DECAPROP, MHPGM+NOIC, ConZNet, RMR+A2D",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.02262\\6-Table2-1.png",
+        "question_prep": "what are the baselines that masque is compared against?"
+    },
+    {
+        "question": "What are the baselines that Masque is compared against?",
+        "answer": "BiDAF, Deep Cascade QA, S-Net+CES2S, BERT+Multi-PGNet, Selector+CCG, VNET, DECAPROP, MHPGM+NOIC, ConZNet, RMR+A2D",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.02262\\8-Table5-1.png",
+        "question_prep": "what are the baselines that masque is compared against?"
+    },
+    {
+        "question": "What is the performance achieved on NarrativeQA?",
+        "answer": "Bleu-1: 54.11, Bleu-4: 30.43, METEOR: 26.13, ROUGE-L: 59.87",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.02262\\8-Table5-1.png",
+        "question_prep": "what is the performance achieved on narrativeqa?"
+    },
+    {
+        "question": "How many uniue words are in the dataset?",
+        "answer": "908456 unique words are available in collected corpus.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.12579\\8-Table2-1.png",
+        "question_prep": "how many uniue words are in the dataset?"
+    },
+    {
+        "question": "How much is the BLEU score?",
+        "answer": "Ranges from 44.22 to 100.00 depending on K and the sequence length.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1707.00110\\4-Table1-1.png",
+        "question_prep": "how much is the bleu score?"
+    },
+    {
+        "question": "What are new best results on standard benchmark?",
+        "answer": "New best results of accuracy (P@1) on Vecmap:\nOurs-GeoMMsemi: EN-IT 50.00 IT-EN 42.67 EN-DE 51.60 DE-EN 47.22 FI-EN 39.62 EN-ES 39.47 ES-EN 36.43",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.01013\\4-Table4-1.png",
+        "question_prep": "what are new best results on standard benchmark?"
+    },
+    {
+        "question": "How better is performance compared to competitive baselines?",
+        "answer": "Proposed method vs best baseline result on Vecmap (Accuracy P@1):\nEN-IT: 50 vs 50\nIT-EN: 42.67 vs 42.67\nEN-DE: 51.6 vs 51.47\nDE-EN: 47.22 vs 46.96\nEN-FI: 35.88 vs 36.24\nFI-EN: 39.62 vs 39.57\nEN-ES: 39.47 vs 39.30\nES-EN: 36.43 vs 36.06",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.01013\\4-Table4-1.png",
+        "question_prep": "how better is performance compared to competitive baselines?"
+    },
+    {
+        "question": "What 6 language pairs is experimented on?",
+        "answer": "EN<->ES\nEN<->DE\nEN<->IT\nEN<->EO\nEN<->MS\nEN<->FI",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.01013\\3-Table1-1.png",
+        "question_prep": "what 6 language pairs is experimented on?"
+    },
+    {
+        "question": "Do they compare DeepER against other approaches?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1605.08675\\20-Table3-1.png",
+        "question_prep": "do they compare deeper against other approaches?"
+    },
+    {
+        "question": "What are lyrical topics present in the metal genre?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.04952\\3-Table1-1.png",
+        "question_prep": "what are lyrical topics present in the metal genre?"
+    },
+    {
+        "question": "By how much does SPNet outperforms state-of-the-art abstractive summarization methods on evaluation metrics?",
+        "answer": "SPNet vs best baseline:\nROUGE-1: 90.97 vs 90.68\nCIC: 70.45 vs 70.25",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.00825\\6-Table1-1.png",
+        "question_prep": "by how much does spnet outperforms state-of-the-art abstractive summarization methods on evaluation metrics?"
+    },
+    {
+        "question": "What are state of the art methods MMM is compared to?",
+        "answer": "FTLM++, BERT-large, XLNet",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.00458\\4-Table3-1.png",
+        "question_prep": "what are state of the art methods mmm is compared to?"
+    },
+    {
+        "question": "What are the problems related to ambiguity in PICO sentence prediction tasks?",
+        "answer": "Some sentences are associated to ambiguous dimensions in the hidden state output",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.11268\\6-Figure2-1.png",
+        "question_prep": "what are the problems related to ambiguity in pico sentence prediction tasks?"
+    },
+    {
+        "question": "By how much do they improve the accuracy of inferences over state-of-the-art methods?",
+        "answer": "ON Event2Mind, the accuracy of proposed method is improved by  absolute BLUE  2.9,  10.87, 1.79 for xIntent, xReact and oReact respectively.\nOn Atomic dataset, the accuracy of proposed method is improved by  absolute BLUE 3.95.   4.11, 4.49 for xIntent, xReact and oReact.respectively.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.08824\\6-Table4-1.png",
+        "question_prep": "by how much do they improve the accuracy of inferences over state-of-the-art methods?"
+    },
+    {
+        "question": "By how much do they improve the accuracy of inferences over state-of-the-art methods?",
+        "answer": "ON Event2Mind, the accuracy of proposed method is improved by  absolute BLUE  2.9,  10.87, 1.79 for xIntent, xReact and oReact respectively.\nOn Atomic dataset, the accuracy of proposed method is improved by  absolute BLUE 3.95.   4.11, 4.49 for xIntent, xReact and oReact.respectively.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.08824\\7-Table6-1.png",
+        "question_prep": "by how much do they improve the accuracy of inferences over state-of-the-art methods?"
+    },
+    {
+        "question": "Which models do they use as baselines on the Atomic dataset?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.08824\\7-Table6-1.png",
+        "question_prep": "which models do they use as baselines on the atomic dataset?"
+    },
+    {
+        "question": "How much improvement does their method get over the fine tuning baseline?",
+        "answer": "0.08 points on the 2011 test set, 0.44 points on the 2012 test set, 0.42 points on the 2013 test set for IWSLT-CE.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1701.03214\\3-Table1-1.png",
+        "question_prep": "how much improvement does their method get over the fine tuning baseline?"
+    },
+    {
+        "question": "By how much do they outpeform previous results on the word discrimination task?",
+        "answer": "Their best average precision tops previous best result by 0.202",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1611.02550\\5-Table1-1.png",
+        "question_prep": "by how much do they outpeform previous results on the word discrimination task?"
+    },
+    {
+        "question": "How strong was the correlation between exercise and diabetes?",
+        "answer": "weak correlation with p-value of 0.08",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1709.07916\\6-Figure2-1.png",
+        "question_prep": "how strong was the correlation between exercise and diabetes?"
+    },
+    {
+        "question": "By how much do they outperform previous state-of-the-art models?",
+        "answer": "Proposed ORNN has 0.769, 1.238, 0.818, 0.772 compared to 0.778, 1.244, 0.813, 0.781 of best state of the art result on Mean Absolute Error (MAE), macro-averaged Mean Absolute Error (MAEM ), binary classification accuracy (Acc.) and weighted binary classification accuracy (Wt. Acc.)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.05434\\7-Table2-1.png",
+        "question_prep": "by how much do they outperform previous state-of-the-art models?"
+    },
+    {
+        "question": "By how much do they outperform previous state-of-the-art models?",
+        "answer": "Proposed ORNN has 0.769, 1.238, 0.818, 0.772 compared to 0.778, 1.244, 0.813, 0.781 of best state of the art result on Mean Absolute Error (MAE), macro-averaged Mean Absolute Error (MAEM ), binary classification accuracy (Acc.) and weighted binary classification accuracy (Wt. Acc.)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.05434\\7-Table2-1.png",
+        "question_prep": "by how much do they outperform previous state-of-the-art models?"
+    },
+    {
+        "question": "What is the performance difference between proposed method and state-of-the-arts on these datasets?",
+        "answer": "Difference is around 1 BLEU score lower on average than state of the art methods.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.02480\\7-Table2-1.png",
+        "question_prep": "what is the performance difference between proposed method and state-of-the-arts on these datasets?"
+    },
+    {
+        "question": "What percentage fewer errors did professional translations make?",
+        "answer": "36%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2004.01694\\12-Table5-1.png",
+        "question_prep": "what percentage fewer errors did professional translations make?"
+    },
+    {
+        "question": "Are the intent labels imbalanced in the dataset?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1904.10500\\5-Table2-1.png",
+        "question_prep": "are the intent labels imbalanced in the dataset?"
+    },
+    {
+        "question": "What evaluations did the authors use on their system?",
+        "answer": "BLEU scores, exact matches of words in both translations and topic cache, and cosine similarities of adjacent sentences for coherence.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1711.11221\\8-Table1-1.png",
+        "question_prep": "what evaluations did the authors use on their system?"
+    },
+    {
+        "question": "What evaluations did the authors use on their system?",
+        "answer": "BLEU scores, exact matches of words in both translations and topic cache, and cosine similarities of adjacent sentences for coherence.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1711.11221\\9-Table3-1.png",
+        "question_prep": "what evaluations did the authors use on their system?"
+    },
+    {
+        "question": "What evaluations did the authors use on their system?",
+        "answer": "BLEU scores, exact matches of words in both translations and topic cache, and cosine similarities of adjacent sentences for coherence.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1711.11221\\10-Table6-1.png",
+        "question_prep": "what evaluations did the authors use on their system?"
+    },
+    {
+        "question": "What accuracy does CNN model achieve?",
+        "answer": "Combined per-pixel accuracy for character line segments is 74.79",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.07025\\5-TableIV-1.png",
+        "question_prep": "what accuracy does cnn model achieve?"
+    },
+    {
+        "question": "What accuracy does CNN model achieve?",
+        "answer": "Combined per-pixel accuracy for character line segments is 74.79",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.07025\\3-TableI-1.png",
+        "question_prep": "what accuracy does cnn model achieve?"
+    },
+    {
+        "question": "How many documents are in the Indiscapes dataset?",
+        "answer": "508",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.07025\\3-TableIII-1.png",
+        "question_prep": "how many documents are in the indiscapes dataset?"
+    },
+    {
+        "question": "What are the 7 different datasets?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1809.09795\\3-Table1-1.png",
+        "question_prep": "what are the 7 different datasets?"
+    },
+    {
+        "question": "By how much does using phonetic feedback improve state-of-the-art systems?",
+        "answer": "Improved AECNN-T by 2.1 and AECNN-T-SM BY 0.9",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.01769\\4-Table2-1.png",
+        "question_prep": "by how much does using phonetic feedback improve state-of-the-art systems?"
+    },
+    {
+        "question": "What is the general framework for data exploration by semantic queries?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.08191\\6-Figure1-1.png",
+        "question_prep": "what is the general framework for data exploration by semantic queries?"
+    },
+    {
+        "question": "what are the baselines?",
+        "answer": "AS Reader, GA Reader, CAS Reader",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1806.09103\\6-Table2-1.png",
+        "question_prep": "what are the baselines?"
+    },
+    {
+        "question": "what are the baselines?",
+        "answer": "AS Reader, GA Reader, CAS Reader",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1806.09103\\7-Table3-1.png",
+        "question_prep": "what are the baselines?"
+    },
+    {
+        "question": "How do they measure performance of language model tasks?",
+        "answer": "BPC, Perplexity",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1711.02013\\8-Table1-1.png",
+        "question_prep": "how do they measure performance of language model tasks?"
+    },
+    {
+        "question": "How do their results compare against other competitors in the PAN 2017 shared task on Author Profiling?",
+        "answer": "They achieved best result in the PAN 2017 shared task with accuracy for Variety prediction task 0.0013 more than the 2nd best baseline, accuracy for Gender prediction task 0.0029 more than 2nd best baseline and accuracy for Joint prediction task 0.0101 more than the 2nd best baseline",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1707.03764\\8-Table8-1.png",
+        "question_prep": "how do their results compare against other competitors in the pan 2017 shared task on author profiling?"
+    },
+    {
+        "question": "What improvement does the MOE model make over the SOTA on language modelling?",
+        "answer": "Perpexity is improved from 34.7 to 28.0.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1701.06538\\7-Table1-1.png",
+        "question_prep": "what improvement does the moe model make over the sota on language modelling?"
+    },
+    {
+        "question": "What is the difference in performance between the interpretable system (e.g. vectors and cosine distance) and LSTM with ELMo system?",
+        "answer": "Accuracy of best interpretible system was 0.3945 while accuracy of LSTM-ELMo net was 0.6818.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1905.10810\\3-Table1-1.png",
+        "question_prep": "what is the difference in performance between the interpretable system (e.g. vectors and cosine distance) and lstm with elmo system?"
+    },
+    {
+        "question": "Which language-pair had the better performance?",
+        "answer": "French-English",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.07481\\4-Table5-1.png",
+        "question_prep": "which language-pair had the better performance?"
+    },
+    {
+        "question": "Which psycholinguistic and basic linguistic features are used?",
+        "answer": "Emotion Sensor Feature, Part of Speech, Punctuation, Sentiment Analysis, Empath, TF-IDF Emoticon features",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.05493\\4-Table1-1.png",
+        "question_prep": "which psycholinguistic and basic linguistic features are used?"
+    },
+    {
+        "question": "What baseline models do they compare against?",
+        "answer": "SLQA, Rusalka, HMA Model (single), TriAN (single), jiangnan (ensemble), MITRE (ensemble), TriAN (ensemble), HMA Model (ensemble)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.02257\\7-Table2-1.png",
+        "question_prep": "what baseline models do they compare against?"
+    },
+    {
+        "question": "How much improvement is gained from the proposed approaches?",
+        "answer": "It eliminates non-termination in some models fixing for some models up to 6% of non-termination ratio.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.02492\\7-Table2-1.png",
+        "question_prep": "how much improvement is gained from the proposed approaches?"
+    },
+    {
+        "question": "How much improvement is gained from the proposed approaches?",
+        "answer": "It eliminates non-termination in some models fixing for some models up to 6% of non-termination ratio.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.02492\\7-Table1-1.png",
+        "question_prep": "how much improvement is gained from the proposed approaches?"
+    },
+    {
+        "question": "How better is performance of proposed model compared to baselines?",
+        "answer": "Proposed model achive 66+-22 win rate, baseline CNN 13+-1  and baseline FiLM 32+-3 .",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.08210\\6-Table1-1.png",
+        "question_prep": "how better is performance of proposed model compared to baselines?"
+    },
+    {
+        "question": "Do they predict the sentiment of the review summary?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.02711\\2-Figure2-1.png",
+        "question_prep": "do they predict the sentiment of the review summary?"
+    },
+    {
+        "question": "What is the performance difference of using a generated summary vs. a user-written one?",
+        "answer": "2.7 accuracy points",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.02711\\7-Table4-1.png",
+        "question_prep": "what is the performance difference of using a generated summary vs. a user-written one?"
+    },
+    {
+        "question": "What is the performance difference of using a generated summary vs. a user-written one?",
+        "answer": "2.7 accuracy points",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.02711\\7-Table5-1.png",
+        "question_prep": "what is the performance difference of using a generated summary vs. a user-written one?"
+    },
+    {
+        "question": "What are the datasets used for the task?",
+        "answer": "Datasets used are Celex (English, Dutch), Festival (Italian), OpenLexuque (French), IIT-Guwahati (Manipuri), E-Hitz (Basque)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.13362\\5-TableI-1.png",
+        "question_prep": "what are the datasets used for the task?"
+    },
+    {
+        "question": "What is the accuracy of the model for the six languages tested?",
+        "answer": "Authors report their best models have following accuracy: English CELEX (98.5%), Dutch CELEX (99.47%), Festival (99.990%), OpenLexique (100%), IIT-Guwahat (95.4%), E-Hitz (99.83%)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.13362\\6-TableIII-1.png",
+        "question_prep": "what is the accuracy of the model for the six languages tested?"
+    },
+    {
+        "question": "Which models achieve state-of-the-art performances?",
+        "answer": "CELEX (Dutch and English) - SVM-HMM\nFestival, E-Hitz and OpenLexique - Liang hyphenation\nIIT-Guwahat - Entropy CRF",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.13362\\5-TableII-1.png",
+        "question_prep": "which models achieve state-of-the-art performances?"
+    },
+    {
+        "question": "Which tasks do they apply their method to?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1907.08937\\6-Figure3-1.png",
+        "question_prep": "which tasks do they apply their method to?"
+    },
+    {
+        "question": "Is audio data per language balanced in dataset?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.06670\\3-Table1-1.png",
+        "question_prep": "is audio data per language balanced in dataset?"
+    },
+    {
+        "question": "Is audio data per language balanced in dataset?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.06670\\4-Table2-1.png",
+        "question_prep": "is audio data per language balanced in dataset?"
+    },
+    {
+        "question": "What is the average length of the claims?",
+        "answer": "Average claim length is 8.9 tokens.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1906.03538\\5-Table2-1.png",
+        "question_prep": "what is the average length of the claims?"
+    },
+    {
+        "question": "What debate topics are included in the dataset?",
+        "answer": "Ethics, Gender, Human rights, Sports, Freedom of Speech, Society, Religion, Philosophy, Health, Culture, World, Politics, Environment, Education, Digital Freedom, Economy, Science and Law",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1906.03538\\6-Figure3-1.png",
+        "question_prep": "what debate topics are included in the dataset?"
+    },
+    {
+        "question": "By how much, the proposed method improves BiDAF and DCN on SQuAD dataset?",
+        "answer": "In terms of F1 score, the Hybrid approach improved by 23.47% and 1.39% on BiDAF and DCN respectively. The DCA approach improved by 23.2% and 1.12% on BiDAF and DCN respectively.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1803.09230\\5-Table1-1.png",
+        "question_prep": "by how much, the proposed method improves bidaf and dcn on squad dataset?"
+    },
+    {
+        "question": "what genres do they songs fall under?",
+        "answer": "Gospel, Sertanejo, MPB, Forr\u00f3, Pagode, Rock, Samba, Pop, Ax\u00e9, Funk-carioca, Infantil, Velha-guarda, Bossa-nova and Jovem-guarda",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.05377\\3-Table1-1.png",
+        "question_prep": "what genres do they songs fall under?"
+    },
+    {
+        "question": "To what other competitive baselines is this approach compared?",
+        "answer": "LSTMs with and without attention, HRED, VHRED with and without attention, MMI and Reranking-RL",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.05467\\5-Table1-1.png",
+        "question_prep": "to what other competitive baselines is this approach compared?"
+    },
+    {
+        "question": "How much better were results of the proposed models than base LSTM-RNN model?",
+        "answer": "on diversity 6.87 and on relevance 4.6 points higher",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.05467\\5-Table1-1.png",
+        "question_prep": "how much better were results of the proposed models than base lstm-rnn model?"
+    },
+    {
+        "question": "How much is proposed model better than baselines in performed experiments?",
+        "answer": "most of the models have similar performance on BPRA: DSTC2 (+0.0015), Maluuba (+0.0729)\nGDP achieves the best performance in APRA: DSTC2 (+0.2893), Maluuba (+0.2896)\nGDP significantly outperforms the baselines on BLEU: DSTC2 (+0.0791), Maluuba (+0.0492)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.09484\\7-Table2-1.png",
+        "question_prep": "how much is proposed model better than baselines in performed experiments?"
+    },
+    {
+        "question": "Do they evaluate only on English datasets?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1807.07961\\2-Table1-1.png",
+        "question_prep": "do they evaluate only on english datasets?"
+    },
+    {
+        "question": "By how much is precission increased?",
+        "answer": "ROUGE-1 increases by 0.05, ROUGE-2 by 0.06 and ROUGE-L by 0.09",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.02776\\9-Figure3-1.png",
+        "question_prep": "by how much is precission increased?"
+    },
+    {
+        "question": "What labels are in the dataset?",
+        "answer": "binary label of stress or not stress",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.00133\\2-Figure1-1.png",
+        "question_prep": "what labels are in the dataset?"
+    },
+    {
+        "question": "Do they evaluate only on English datasets?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1709.05413\\2-Table1-1.png",
+        "question_prep": "do they evaluate only on english datasets?"
+    },
+    {
+        "question": "Which data sources do they use?",
+        "answer": "- En-Fr (WMT14)\n- En-De (WMT15)\n- Skipthought (BookCorpus)\n- AllNLI (SNLI + MultiNLI)\n- Parsing (PTB + 1-billion word)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1804.00079\\5-Table1-1.png",
+        "question_prep": "which data sources do they use?"
+    },
+    {
+        "question": "What approach performs better in experiments global latent or sequence of fine-grained latent variables?",
+        "answer": "PPL: SVT\nDiversity: GVT\nEmbeddings Similarity: SVT\nHuman Evaluation: SVT",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.12738\\7-Table1-1.png",
+        "question_prep": "what approach performs better in experiments global latent or sequence of fine-grained latent variables?"
+    },
+    {
+        "question": "What previous approaches did this method outperform?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.03544\\7-Table2-1.png",
+        "question_prep": "what previous approaches did this method outperform?"
+    },
+    {
+        "question": "What previous approaches did this method outperform?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.03544\\7-Table4-1.png",
+        "question_prep": "what previous approaches did this method outperform?"
+    },
+    {
+        "question": "What previous approaches did this method outperform?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.03544\\9-Table5-1.png",
+        "question_prep": "what previous approaches did this method outperform?"
+    },
+    {
+        "question": "What previous approaches did this method outperform?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.03544\\9-Table6-1.png",
+        "question_prep": "what previous approaches did this method outperform?"
+    },
+    {
+        "question": "Is the new model evaluated on the tasks that BERT and ELMo are evaluated on?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1811.01088\\4-Table1-1.png",
+        "question_prep": "is the new model evaluated on the tasks that bert and elmo are evaluated on?"
+    },
+    {
+        "question": "Which language has the lowest error rate reduction?",
+        "answer": "thai",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1902.10525\\11-Table9-1.png",
+        "question_prep": "which language has the lowest error rate reduction?"
+    },
+    {
+        "question": "How big is dataset used?",
+        "answer": "553,451 documents",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2004.01878\\6-Table1-1.png",
+        "question_prep": "how big is dataset used?"
+    },
+    {
+        "question": "How much better does this baseline neural model do?",
+        "answer": "The model outperforms at every point in the\nimplicit-tuples PR curve reaching almost 0.8 in recall",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1905.07471\\4-Figure2-1.png",
+        "question_prep": "how much better does this baseline neural model do?"
+    },
+    {
+        "question": "What are the baseline models?",
+        "answer": "MC-CNN\nMVCNN\nCNN",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1603.00968\\4-Table1-1.png",
+        "question_prep": "what are the baseline models?"
+    },
+    {
+        "question": "By how much of MGNC-CNN out perform the baselines?",
+        "answer": "In terms of Subj the Average MGNC-CNN is better than the average score of baselines by 0.5.  Similarly, Scores of SST-1, SST-2, and TREC where MGNC-CNN has similar improvements. \nIn case of Irony the difference is about 2.0. \n",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1603.00968\\4-Table1-1.png",
+        "question_prep": "by how much of mgnc-cnn out perform the baselines?"
+    },
+    {
+        "question": "What are the comparable alternative architectures?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1603.00968\\4-Table1-1.png",
+        "question_prep": "what are the comparable alternative architectures?"
+    },
+    {
+        "question": "Which state-of-the-art model is surpassed by 9.68% attraction score?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2004.01980\\7-Table2-1.png",
+        "question_prep": "which state-of-the-art model is surpassed by 9.68% attraction score?"
+    },
+    {
+        "question": "What is increase in percentage of humor contained in headlines generated with TitleStylist method (w.r.t. baselines)?",
+        "answer": "Humor in headlines (TitleStylist vs Multitask baseline):\nRelevance: +6.53% (5.87 vs 5.51)\nAttraction: +3.72% (8.93 vs 8.61)\nFluency: 1,98% (9.29 vs 9.11)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2004.01980\\7-Table2-1.png",
+        "question_prep": "what is increase in percentage of humor contained in headlines generated with titlestylist method (w.r.t. baselines)?"
+    },
+    {
+        "question": "What is increase in percentage of humor contained in headlines generated with TitleStylist method (w.r.t. baselines)?",
+        "answer": "Humor in headlines (TitleStylist vs Multitask baseline):\nRelevance: +6.53% (5.87 vs 5.51)\nAttraction: +3.72% (8.93 vs 8.61)\nFluency: 1,98% (9.29 vs 9.11)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2004.01980\\7-Table2-1.png",
+        "question_prep": "what is increase in percentage of humor contained in headlines generated with titlestylist method (w.r.t. baselines)?"
+    },
+    {
+        "question": "What preprocessing techniques are used in the experiments?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1806.02908\\3-Figure1-1.png",
+        "question_prep": "what preprocessing techniques are used in the experiments?"
+    },
+    {
+        "question": "What evaluation metrics are used?",
+        "answer": "Accuracy on each dataset and the average accuracy on all datasets.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1804.08139\\5-Table2-1.png",
+        "question_prep": "what evaluation metrics are used?"
+    },
+    {
+        "question": "How much better are results of proposed model compared to pivoting method?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.03597\\7-Table3-1.png",
+        "question_prep": "how much better are results of proposed model compared to pivoting method?"
+    },
+    {
+        "question": "Who was the top-scoring team?",
+        "answer": "IDEA",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.07734\\4-Table6-1.png",
+        "question_prep": "who was the top-scoring team?"
+    },
+    {
+        "question": "Who was the top-scoring team?",
+        "answer": "IDEA",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.07734\\5-Table7-1.png",
+        "question_prep": "who was the top-scoring team?"
+    },
+    {
+        "question": "How strong is the correlation between the prevalence of the #MeToo movement and official reports [of sexual harassment]?",
+        "answer": "0.9098 correlation",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.05970\\4-Table2-1.png",
+        "question_prep": "how strong is the correlation between the prevalence of the #metoo movement and official reports [of sexual harassment]?"
+    },
+    {
+        "question": "What were their accuracy results on the task?",
+        "answer": "97.32%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1710.06700\\4-Table3-1.png",
+        "question_prep": "what were their accuracy results on the task?"
+    },
+    {
+        "question": "Which 3 NLP areas are cited the most?",
+        "answer": "machine translation, statistical machine, sentiment analysis",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.03562\\29-Figure33-1.png",
+        "question_prep": "which 3 nlp areas are cited the most?"
+    },
+    {
+        "question": "Which journal and conference are cited the most in recent years?",
+        "answer": "CL Journal and EMNLP conference",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.03562\\20-Figure25-1.png",
+        "question_prep": "which journal and conference are cited the most in recent years?"
+    },
+    {
+        "question": "Which 5 languages appear most frequently in AA paper titles?",
+        "answer": "English, Chinese, French, Japanese and Arabic",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.03562\\10-Figure11-1.png",
+        "question_prep": "which 5 languages appear most frequently in aa paper titles?"
+    },
+    {
+        "question": "Are the academically younger authors cited less than older?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.03562\\26-Figure30-1.png",
+        "question_prep": "are the academically younger authors cited less than older?"
+    },
+    {
+        "question": "How much F1 was improved after adding skip connections?",
+        "answer": "Simple Skip improves F1 from 74.34 to 74.81\nTransformer Skip improes F1 from 74.34 to 74.95 ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.10435\\6-Table2-1.png",
+        "question_prep": "how much f1 was improved after adding skip connections?"
+    },
+    {
+        "question": "How much gain does the model achieve with pretraining MVCNN?",
+        "answer": "0.8 points on Binary; 0.7 points on Fine-Grained; 0.6 points on Senti140; 0.7 points on Subj",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1603.04513\\8-Table3-1.png",
+        "question_prep": "how much gain does the model achieve with pretraining mvcnn?"
+    },
+    {
+        "question": "What are the effects of extracting features of multigranular phrases?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1603.04513\\8-Table3-1.png",
+        "question_prep": "what are the effects of extracting features of multigranular phrases?"
+    },
+    {
+        "question": "What are the effects of diverse versions of pertained word embeddings? ",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1603.04513\\8-Table3-1.png",
+        "question_prep": "what are the effects of diverse versions of pertained word embeddings? "
+    },
+    {
+        "question": "What is the highest accuracy score achieved?",
+        "answer": "82.0%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1607.06025\\15-Table4-1.png",
+        "question_prep": "what is the highest accuracy score achieved?"
+    },
+    {
+        "question": "What is improvement in accuracy for short Jokes in relation other types of jokes?",
+        "answer": "It had the highest accuracy comparing to all datasets 0.986% and It had the highest improvement comparing to previous methods on the same dataset by 8%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00252\\3-Table2-1.png",
+        "question_prep": "what is improvement in accuracy for short jokes in relation other types of jokes?"
+    },
+    {
+        "question": "What is improvement in accuracy for short Jokes in relation other types of jokes?",
+        "answer": "It had the highest accuracy comparing to all datasets 0.986% and It had the highest improvement comparing to previous methods on the same dataset by 8%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00252\\4-Table3-1.png",
+        "question_prep": "what is improvement in accuracy for short jokes in relation other types of jokes?"
+    },
+    {
+        "question": "What is improvement in accuracy for short Jokes in relation other types of jokes?",
+        "answer": "It had the highest accuracy comparing to all datasets 0.986% and It had the highest improvement comparing to previous methods on the same dataset by 8%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00252\\4-Table4-1.png",
+        "question_prep": "what is improvement in accuracy for short jokes in relation other types of jokes?"
+    },
+    {
+        "question": "What is the metric used with WIKIHOP?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1808.09920\\6-Table2-1.png",
+        "question_prep": "what is the metric used with wikihop?"
+    },
+    {
+        "question": "What performance does the Entity-GCN get on WIKIHOP?",
+        "answer": "During testing: 67.6 for single model without coreference, 66.4 for single model with coreference, 71.2 for ensemble of 5 models",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1808.09920\\6-Table2-1.png",
+        "question_prep": "what performance does the entity-gcn get on wikihop?"
+    },
+    {
+        "question": "How do they damage different neural modules?",
+        "answer": "Damage to neural modules is done by randomly initializing their weights, causing the loss of all learned information.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.08899\\4-Table2-1.png",
+        "question_prep": "how do they damage different neural modules?"
+    },
+    {
+        "question": "How long are the datasets?",
+        "answer": "Travel dataset contains 4100 raw samples, 11291 clauses, Hotel dataset contains 3825 raw samples, 11264 clauses, and the Mobile dataset contains 3483 raw samples and 8118 clauses",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1803.07771\\7-Table1-1.png",
+        "question_prep": "how long are the datasets?"
+    },
+    {
+        "question": "What methods were used for unsupervised CLWE?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.01638\\5-Table1-1.png",
+        "question_prep": "what methods were used for unsupervised clwe?"
+    },
+    {
+        "question": "What methods were used for unsupervised CLWE?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.01638\\3-Figure1-1.png",
+        "question_prep": "what methods were used for unsupervised clwe?"
+    },
+    {
+        "question": "what metrics are used in evaluation?",
+        "answer": "micro-averaged F1",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1705.00108\\5-Table1-1.png",
+        "question_prep": "what metrics are used in evaluation?"
+    },
+    {
+        "question": "what previous systems were compared to?",
+        "answer": "Chiu and Nichols (2016), Lample et al. (2016), Ma and Hovy (2016), Yang et al. (2017), Hashimoto et al. (2016), S\u00f8gaard and Goldberg (2016) ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1705.00108\\5-Table1-1.png",
+        "question_prep": "what previous systems were compared to?"
+    },
+    {
+        "question": "what previous systems were compared to?",
+        "answer": "Chiu and Nichols (2016), Lample et al. (2016), Ma and Hovy (2016), Yang et al. (2017), Hashimoto et al. (2016), S\u00f8gaard and Goldberg (2016) ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1705.00108\\5-Table2-1.png",
+        "question_prep": "what previous systems were compared to?"
+    },
+    {
+        "question": "what previous systems were compared to?",
+        "answer": "Chiu and Nichols (2016), Lample et al. (2016), Ma and Hovy (2016), Yang et al. (2017), Hashimoto et al. (2016), S\u00f8gaard and Goldberg (2016) ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1705.00108\\6-Table3-1.png",
+        "question_prep": "what previous systems were compared to?"
+    },
+    {
+        "question": "what previous systems were compared to?",
+        "answer": "Chiu and Nichols (2016), Lample et al. (2016), Ma and Hovy (2016), Yang et al. (2017), Hashimoto et al. (2016), S\u00f8gaard and Goldberg (2016) ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1705.00108\\6-Table4-1.png",
+        "question_prep": "what previous systems were compared to?"
+    },
+    {
+        "question": "When they say \"comparable performance\", how much of a performance drop do these new embeddings result in?",
+        "answer": "Performance was comparable, with the proposed method quite close and sometimes exceeding performance of baseline method.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1712.03547\\4-Table1-1.png",
+        "question_prep": "when they say \"comparable performance\", how much of a performance drop do these new embeddings result in?"
+    },
+    {
+        "question": "What type of recurrent layers does the model use?",
+        "answer": "GRU",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1707.05853\\2-Figure1-1.png",
+        "question_prep": "what type of recurrent layers does the model use?"
+    },
+    {
+        "question": "How does TP-N2F compare to LSTM-based Seq2Seq in terms of training and inference speed?",
+        "answer": "Full Testing Set accuracy: 84.02\nCleaned Testing Set accuracy: 93.48",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.02339\\8-Table2-1.png",
+        "question_prep": "how does tp-n2f compare to lstm-based seq2seq in terms of training and inference speed?"
+    },
+    {
+        "question": "What is the performance proposed model achieved on AlgoList benchmark?",
+        "answer": "Full Testing Set Accuracy: 84.02\nCleaned Testing Set Accuracy: 93.48",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.02339\\8-Table2-1.png",
+        "question_prep": "what is the performance proposed model achieved on algolist benchmark?"
+    },
+    {
+        "question": "What is the performance proposed model achieved on MathQA?",
+        "answer": "Operation accuracy: 71.89\nExecution accuracy: 55.95",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.02339\\7-Table1-1.png",
+        "question_prep": "what is the performance proposed model achieved on mathqa?"
+    },
+    {
+        "question": "How do previous methods perform on the Switchboard Dialogue Act and DailyDialog datasets?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.06044\\6-Table4-1.png",
+        "question_prep": "how do previous methods perform on the switchboard dialogue act and dailydialog datasets?"
+    },
+    {
+        "question": "How do previous methods perform on the Switchboard Dialogue Act and DailyDialog datasets?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.06044\\6-Table5-1.png",
+        "question_prep": "how do previous methods perform on the switchboard dialogue act and dailydialog datasets?"
+    },
+    {
+        "question": "How do previous methods perform on the Switchboard Dialogue Act and DailyDialog datasets?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.06044\\7-Table6-1.png",
+        "question_prep": "how do previous methods perform on the switchboard dialogue act and dailydialog datasets?"
+    },
+    {
+        "question": "What previous methods is the proposed method compared against?",
+        "answer": "BLSTM+Attention+BLSTM\nHierarchical BLSTM-CRF\nCRF-ASN\nHierarchical CNN (window 4)\nmLSTM-RNN\nDRLM-Conditional\nLSTM-Softmax\nRCNN\nCNN\nCRF\nLSTM\nBERT",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.06044\\6-Table4-1.png",
+        "question_prep": "what previous methods is the proposed method compared against?"
+    },
+    {
+        "question": "What previous methods is the proposed method compared against?",
+        "answer": "BLSTM+Attention+BLSTM\nHierarchical BLSTM-CRF\nCRF-ASN\nHierarchical CNN (window 4)\nmLSTM-RNN\nDRLM-Conditional\nLSTM-Softmax\nRCNN\nCNN\nCRF\nLSTM\nBERT",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.06044\\6-Table5-1.png",
+        "question_prep": "what previous methods is the proposed method compared against?"
+    },
+    {
+        "question": "What domains are present in the data?",
+        "answer": "Alarm, Banks, Buses, Calendar, Events, Flights, Homes, Hotels, Media, Messaging, Movies, Music, Payment, Rental Cars, Restaurants, Ride Sharing, Services, Train, Travel, Weather",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.01359\\5-Table2-1.png",
+        "question_prep": "what domains are present in the data?"
+    },
+    {
+        "question": "How many texts/datapoints are in the SemEval, TASS and SENTIPOLC datasets?",
+        "answer": "Total number of annotated data:\nSemeval'15: 10712\nSemeval'16: 28632\nTass'15: 69000\nSentipol'14: 6428",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1612.05270\\6-Table3-1.png",
+        "question_prep": "how many texts/datapoints are in the semeval, tass and sentipolc datasets?"
+    },
+    {
+        "question": "In which languages did the approach outperform the reported results?",
+        "answer": "Arabic, German, Portuguese, Russian, Swedish",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1612.05270\\8-Table5-1.png",
+        "question_prep": "in which languages did the approach outperform the reported results?"
+    },
+    {
+        "question": "What is a confusion network or lattice?",
+        "answer": "graph-like structures where arcs connect nodes representing multiple hypothesized words, thus allowing multiple incoming arcs unlike 1-best sequences",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1810.13024\\2-Figure2-1.png",
+        "question_prep": "what is a confusion network or lattice?"
+    },
+    {
+        "question": "How close do clusters match to ground truth tone categories?",
+        "answer": "NMI between cluster assignments and ground truth tones for all sylables is:\nMandarin: 0.641\nCantonese: 0.464",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.08987\\4-Table3-1.png",
+        "question_prep": "how close do clusters match to ground truth tone categories?"
+    },
+    {
+        "question": "what are the evaluation metrics?",
+        "answer": "Precision, Recall, F1",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1701.09123\\15-Table5-1.png",
+        "question_prep": "what are the evaluation metrics?"
+    },
+    {
+        "question": "which datasets were used in evaluation?",
+        "answer": "CoNLL 2003, GermEval 2014, CoNLL 2002, Egunkaria, MUC7, Wikigold, MEANTIME, SONAR-1, Ancora 2.0",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1701.09123\\5-Table1-1.png",
+        "question_prep": "which datasets were used in evaluation?"
+    },
+    {
+        "question": "How well does their system perform on the development set of SRE?",
+        "answer": "EER 16.04, Cmindet 0.6012, Cdet 0.6107",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1611.00514\\5-Table2-1.png",
+        "question_prep": "how well does their system perform on the development set of sre?"
+    },
+    {
+        "question": "Is the dataset focused on a region?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2004.04315\\3-Figure1-1.png",
+        "question_prep": "is the dataset focused on a region?"
+    },
+    {
+        "question": "Are the tweets location-specific?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2004.04315\\3-Figure1-1.png",
+        "question_prep": "are the tweets location-specific?"
+    },
+    {
+        "question": "Which of the classifiers showed the best performance?",
+        "answer": "Logistic regression",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.00570\\7-TableII-1.png",
+        "question_prep": "which of the classifiers showed the best performance?"
+    },
+    {
+        "question": "Were any other word similar metrics, besides Jaccard metric, tested?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.00570\\7-TableII-1.png",
+        "question_prep": "were any other word similar metrics, besides jaccard metric, tested?"
+    },
+    {
+        "question": "What are proof paths?",
+        "answer": "A sequence of logical statements represented in a computational graph",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1807.08204\\2-Figure1-1.png",
+        "question_prep": "what are proof paths?"
+    },
+    {
+        "question": "What external sources are used?",
+        "answer": "Raw data from Gigaword, Automatically segmented text from Gigaword, Heterogenous training data from People's Daily, POS data from People's Daily",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1704.08960\\6-Table3-1.png",
+        "question_prep": "what external sources are used?"
+    },
+    {
+        "question": "How much better peformance is achieved in human evaluation when model is trained considering proposed metric?",
+        "answer": "Pearson correlation to human judgement - proposed vs next best metric\nSample level comparison:\n- Story generation: 0.387 vs 0.148\n- Dialogue: 0.472 vs 0.341\nModel level comparison:\n- Story generation:  0.631 vs 0.302\n- Dialogue: 0.783 vs 0.553",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.05058\\6-Table1-1.png",
+        "question_prep": "how much better peformance is achieved in human evaluation when model is trained considering proposed metric?"
+    },
+    {
+        "question": "How much better peformance is achieved in human evaluation when model is trained considering proposed metric?",
+        "answer": "Pearson correlation to human judgement - proposed vs next best metric\nSample level comparison:\n- Story generation: 0.387 vs 0.148\n- Dialogue: 0.472 vs 0.341\nModel level comparison:\n- Story generation:  0.631 vs 0.302\n- Dialogue: 0.783 vs 0.553",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.05058\\6-Table2-1.png",
+        "question_prep": "how much better peformance is achieved in human evaluation when model is trained considering proposed metric?"
+    },
+    {
+        "question": "How much transcribed data is available for for Ainu language?",
+        "answer": "Transcribed data is available for duration of 38h 54m 38s for 8 speakers.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.06675\\2-Table1-1.png",
+        "question_prep": "how much transcribed data is available for for ainu language?"
+    },
+    {
+        "question": "What baseline approaches do they compare against?",
+        "answer": "HotspotQA: Yang, Ding, Muppet\nFever: Hanselowski, Yoneda, Nie",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.08041\\5-Table1-1.png",
+        "question_prep": "what baseline approaches do they compare against?"
+    },
+    {
+        "question": "What baseline approaches do they compare against?",
+        "answer": "HotspotQA: Yang, Ding, Muppet\nFever: Hanselowski, Yoneda, Nie",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.08041\\5-Table2-1.png",
+        "question_prep": "what baseline approaches do they compare against?"
+    },
+    {
+        "question": "Retrieval at what level performs better, sentence level or paragraph level?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.08041\\7-Table4-1.png",
+        "question_prep": "retrieval at what level performs better, sentence level or paragraph level?"
+    },
+    {
+        "question": "Retrieval at what level performs better, sentence level or paragraph level?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.08041\\7-Table3-1.png",
+        "question_prep": "retrieval at what level performs better, sentence level or paragraph level?"
+    },
+    {
+        "question": "What was their F1 score on the Bengali NER corpus?",
+        "answer": "52.0%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.09270\\9-Table5-1.png",
+        "question_prep": "what was their f1 score on the bengali ner corpus?"
+    },
+    {
+        "question": "How many examples do they have in the target domain?",
+        "answer": "Around 388k examples, 194k from tst2013 (in-domain) and 194k from newstest2014 (out-of-domain)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1612.06897\\6-Figure1-1.png",
+        "question_prep": "how many examples do they have in the target domain?"
+    },
+    {
+        "question": "Where did they get training data?",
+        "answer": "AmazonQA and ConciergeQA datasets",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1903.00172\\6-Table3-1.png",
+        "question_prep": "where did they get training data?"
+    },
+    {
+        "question": "Where did they get training data?",
+        "answer": "AmazonQA and ConciergeQA datasets",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1903.00172\\7-Table4-1.png",
+        "question_prep": "where did they get training data?"
+    },
+    {
+        "question": "Where did they get training data?",
+        "answer": "AmazonQA and ConciergeQA datasets",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1903.00172\\5-Table1-1.png",
+        "question_prep": "where did they get training data?"
+    },
+    {
+        "question": "What extraction model did they use?",
+        "answer": "Multi-Encoder, Constrained-Decoder model",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1903.00172\\3-Figure1-1.png",
+        "question_prep": "what extraction model did they use?"
+    },
+    {
+        "question": "Which datasets did they experiment on?",
+        "answer": "ConciergeQA and AmazonQA",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1903.00172\\5-Table1-1.png",
+        "question_prep": "which datasets did they experiment on?"
+    },
+    {
+        "question": "Do sluice networks outperform non-transfer learning approaches?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1705.08142\\7-Table3-1.png",
+        "question_prep": "do sluice networks outperform non-transfer learning approaches?"
+    },
+    {
+        "question": "Which model is used to capture the implicit structure?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.07593\\4-Figure4-1.png",
+        "question_prep": "which model is used to capture the implicit structure?"
+    },
+    {
+        "question": "what state of the accuracy did they obtain?",
+        "answer": "51.5",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1704.05907\\3-Table1-1.png",
+        "question_prep": "what state of the accuracy did they obtain?"
+    },
+    {
+        "question": "How is the proficiency score calculated?",
+        "answer": "They used 6 indicators for proficiency (same for written and spoken) each marked by bad, medium or good by one expert.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.08051\\3-Table4-1.png",
+        "question_prep": "how is the proficiency score calculated?"
+    },
+    {
+        "question": "What proficiency indicators are used to the score the utterances?",
+        "answer": "6 indicators:\n- lexical richness\n- pronunciation and fluency\n- syntactical correctness\n- fulfillment of delivery\n- coherence and cohesion\n- communicative, descriptive, narrative skills",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.08051\\3-Table4-1.png",
+        "question_prep": "what proficiency indicators are used to the score the utterances?"
+    },
+    {
+        "question": "What accuracy is achieved by the speech recognition system?",
+        "answer": "Accuracy not available: WER results are reported 42.6 German, 35.9 English",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.08051\\5-Table8-1.png",
+        "question_prep": "what accuracy is achieved by the speech recognition system?"
+    },
+    {
+        "question": "How is the speech recognition system evaluated?",
+        "answer": "Speech recognition system is evaluated using WER metric.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.08051\\5-Table8-1.png",
+        "question_prep": "how is the speech recognition system evaluated?"
+    },
+    {
+        "question": "How many of the utterances are transcribed?",
+        "answer": "Total number of transcribed utterances including Train and Test for both Eng and Ger language is 5562 (2188 cleaned)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.08051\\4-Table7-1.png",
+        "question_prep": "how many of the utterances are transcribed?"
+    },
+    {
+        "question": "How many utterances are in the corpus?",
+        "answer": "Total number of utterances available is: 70607 (37344 ENG + 33263 GER)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2001.08051\\3-Table3-1.png",
+        "question_prep": "how many utterances are in the corpus?"
+    },
+    {
+        "question": "By how much does their model outperform both the state-of-the-art systems?",
+        "answer": "w.r.t Rouge-1 their model outperforms by 0.98% and w.r.t Rouge-L their model outperforms by 0.45%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1611.03382\\8-Table2-1.png",
+        "question_prep": "by how much does their model outperform both the state-of-the-art systems?"
+    },
+    {
+        "question": "What was the performance on the self-collected corpus?",
+        "answer": "F1 scores of 86.16 on slot filling and 94.56 on intent detection",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.06937\\8-Table6-1.png",
+        "question_prep": "what was the performance on the self-collected corpus?"
+    },
+    {
+        "question": "What is the size of their dataset?",
+        "answer": "10,001 utterances",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.06937\\5-Table2-1.png",
+        "question_prep": "what is the size of their dataset?"
+    },
+    {
+        "question": "What was their performance?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1704.00939\\4-Table1-1.png",
+        "question_prep": "what was their performance?"
+    },
+    {
+        "question": "What was their performance?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1704.00939\\4-Table2-1.png",
+        "question_prep": "what was their performance?"
+    },
+    {
+        "question": "What is the performance change of the textual semantic similarity task when no error and maximum errors (noise) are present?",
+        "answer": "10 Epochs: pearson-Spearman correlation  drops  60 points when error increase by 20%\n50 Epochs: pearson-Spearman correlation  drops  55 points when error increase by 20%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.12932\\5-Figure5-1.png",
+        "question_prep": "what is the performance change of the textual semantic similarity task when no error and maximum errors (noise) are present?"
+    },
+    {
+        "question": "Which sentiment analysis data set has a larger performance drop when a 10% error is introduced?",
+        "answer": "SST-2 dataset",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.12932\\4-Figure3-1.png",
+        "question_prep": "which sentiment analysis data set has a larger performance drop when a 10% error is introduced?"
+    },
+    {
+        "question": "How much is pre-training loss increased in Low/Medium/Hard level of pruning?",
+        "answer": "The increase is linearly from lowest on average 2.0 , medium around 3.5, and the largest is 6.0",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.08307\\5-Figure2-1.png",
+        "question_prep": "how much is pre-training loss increased in low/medium/hard level of pruning?"
+    },
+    {
+        "question": "What were their results?",
+        "answer": "Best model achieved F-score 74.7 on NALCS and F-score of 70.0 on LMS on test set",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1707.08559\\5-Table3-1.png",
+        "question_prep": "what were their results?"
+    },
+    {
+        "question": "What is the prediction accuracy of the model?",
+        "answer": "mean prediction accuracy 0.99582651\nS&P 500 Accuracy 0.99582651",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.10806\\7-Table1-1.png",
+        "question_prep": "what is the prediction accuracy of the model?"
+    },
+    {
+        "question": "What is the prediction accuracy of the model?",
+        "answer": "mean prediction accuracy 0.99582651\nS&P 500 Accuracy 0.99582651",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.10806\\8-Table2-1.png",
+        "question_prep": "what is the prediction accuracy of the model?"
+    },
+    {
+        "question": "How much does this system outperform prior work?",
+        "answer": "The system outperforms by 27.7% the LSTM model, 38.5% the RL-SPINN model and 41.6% the Gumbel Tree-LSTM",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1902.09393\\5-Table1-1.png",
+        "question_prep": "how much does this system outperform prior work?"
+    },
+    {
+        "question": "What are the baseline systems that are compared against?",
+        "answer": "The system is compared to baseline models: LSTM, RL-SPINN and Gumbel Tree-LSTM",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1902.09393\\5-Table1-1.png",
+        "question_prep": "what are the baseline systems that are compared against?"
+    },
+    {
+        "question": "What systems are tested?",
+        "answer": "BULATS i-vector/PLDA\nBULATS x-vector/PLDA\nVoxCeleb x-vector/PLDA\nPLDA adaptation (X1)\n Extractor fine-tuning (X2) ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.13695\\4-Table2-1.png",
+        "question_prep": "what systems are tested?"
+    },
+    {
+        "question": "What systems are tested?",
+        "answer": "BULATS i-vector/PLDA\nBULATS x-vector/PLDA\nVoxCeleb x-vector/PLDA\nPLDA adaptation (X1)\n Extractor fine-tuning (X2) ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.13695\\4-Table1-1.png",
+        "question_prep": "what systems are tested?"
+    },
+    {
+        "question": "What are the 12 categories devised?",
+        "answer": "Economics, Genocide, Geography, History, Human Rights, Kurdish, Kurdology, Philosophy, Physics, Theology, Sociology, Social Study",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.11467\\2-Table1-1.png",
+        "question_prep": "what are the 12 categories devised?"
+    },
+    {
+        "question": "What was performance of classifiers before/after using distant supervision?",
+        "answer": "Bi-LSTM: For low resource <17k clean data: Using distant supervision resulted in huge boost of F1 score (1k eg. ~9 to ~36 wit distant supervision)\nBERT: <5k clean data boost of F1 (1k eg. ~32 to ~47 with distant supervision)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.08370\\5-Figure1-1.png",
+        "question_prep": "what was performance of classifiers before/after using distant supervision?"
+    },
+    {
+        "question": "How big are the datasets used?",
+        "answer": "Evaluation datasets used:\nCMRC 2018 - 18939 questions, 10 answers\nDRCD - 33953 questions, 5 answers\nNIST MT02/03/04/05/06/08 Chinese-English - Not specified\n\nSource language train data:\nSQuAD - Not specified",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.00361\\6-Table1-1.png",
+        "question_prep": "how big are the datasets used?"
+    },
+    {
+        "question": "How better is gCAS approach compared to other approaches?",
+        "answer": "For entity  F1 in the movie, taxi and restaurant domain it results in scores of 50.86, 64, and 60.35. For success, it results it outperforms in the movie and restaurant domain with scores of 77.95 and 71.52",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.11546\\3-Table5-1.png",
+        "question_prep": "how better is gcas approach compared to other approaches?"
+    },
+    {
+        "question": "What were the sizes of the test sets?",
+        "answer": "Test set 1 contained 57 drug labels and 8208 sentences and test set 2 contained 66 drug labels and 4224 sentences",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1905.07464\\3-Table1-1.png",
+        "question_prep": "what were the sizes of the test sets?"
+    },
+    {
+        "question": "Which datasets are used?",
+        "answer": "ABSA SemEval 2014-2016 datasets\nYelp Academic Dataset\nWikipedia dumps",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.09755\\6-Table1-1.png",
+        "question_prep": "which datasets are used?"
+    },
+    {
+        "question": "How much does it minimally cost to fine-tune some model according to benchmarking framework?",
+        "answer": "$1,728",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.05829\\2-Table1-1.png",
+        "question_prep": "how much does it minimally cost to fine-tune some model according to benchmarking framework?"
+    },
+    {
+        "question": "What models are included in baseline benchmarking results?",
+        "answer": "BERT, XLNET RoBERTa, ALBERT, DistilBERT",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.05829\\2-Table1-1.png",
+        "question_prep": "what models are included in baseline benchmarking results?"
+    },
+    {
+        "question": "did they compare with other evaluation metrics?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1906.01910\\7-Figure5-1.png",
+        "question_prep": "did they compare with other evaluation metrics?"
+    },
+    {
+        "question": "How much more accurate is the model than the baseline?",
+        "answer": "For the Oshiete-goo dataset, the NAGM model's ROUGE-L score is higher than the highest performing conventional model, Trans, by 0.021, and its BLEU-4 score is higher than the highest performing model CLSTM by 0.037.  For the nfL6 dataset, the NAGM model's ROUGE-L score is higher than the highest performing conventional model, CLSTM, by 0.028, and its BLEU-4 score is higher than the highest performing model CLSTM by 0.040. Human evaluation of the NAGM's generated outputs for the Oshiete-goo dataset had 47% ratings of (1), the highest rating, while CLSTM only received 21% ratings of (1). For the nfL6 dataset, the comparison of (1)'s was NAGM's 50% to CLSTM's 30%. ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.00864\\6-Table4-1.png",
+        "question_prep": "how much more accurate is the model than the baseline?"
+    },
+    {
+        "question": "How much more accurate is the model than the baseline?",
+        "answer": "For the Oshiete-goo dataset, the NAGM model's ROUGE-L score is higher than the highest performing conventional model, Trans, by 0.021, and its BLEU-4 score is higher than the highest performing model CLSTM by 0.037.  For the nfL6 dataset, the NAGM model's ROUGE-L score is higher than the highest performing conventional model, CLSTM, by 0.028, and its BLEU-4 score is higher than the highest performing model CLSTM by 0.040. Human evaluation of the NAGM's generated outputs for the Oshiete-goo dataset had 47% ratings of (1), the highest rating, while CLSTM only received 21% ratings of (1). For the nfL6 dataset, the comparison of (1)'s was NAGM's 50% to CLSTM's 30%. ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.00864\\6-Table6-1.png",
+        "question_prep": "how much more accurate is the model than the baseline?"
+    },
+    {
+        "question": "What is new state-of-the-art performance on CoNLL-2009 dataset?",
+        "answer": "In closed setting 84.22 F1 and in open 87.35 F1.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.11204\\8-Table7-1.png",
+        "question_prep": "what is new state-of-the-art performance on conll-2009 dataset?"
+    },
+    {
+        "question": "What are two strong baseline methods authors refer to?",
+        "answer": "Marcheggiani and Titov (2017) and Cai et al. (2018)",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.11204\\8-Table7-1.png",
+        "question_prep": "what are two strong baseline methods authors refer to?"
+    },
+    {
+        "question": "How many category tags are considered?",
+        "answer": "14 categories",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.07758\\8-Figure5-1.png",
+        "question_prep": "how many category tags are considered?"
+    },
+    {
+        "question": "What languages do they use?",
+        "answer": "Train languages are: Cantonese, Bengali, Pashto, Turkish, Vietnamese, Haitian, Tamil, Kurdish, Tokpisin and Georgian, while Assamese, Tagalog, Swahili, Lao are used as target languages.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1810.03459\\5-Table1-1.png",
+        "question_prep": "what languages do they use?"
+    },
+    {
+        "question": "How large is the corpus?",
+        "answer": "It contains 106,350 documents",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.10361\\2-Table1-1.png",
+        "question_prep": "how large is the corpus?"
+    },
+    {
+        "question": "How large is the dataset?",
+        "answer": "over 104k documents",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.10361\\2-Table1-1.png",
+        "question_prep": "how large is the dataset?"
+    },
+    {
+        "question": "What was their perplexity score?",
+        "answer": "Perplexity score 142.84 on dev and 138.91 on test",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1810.10254\\3-Table3-1.png",
+        "question_prep": "what was their perplexity score?"
+    },
+    {
+        "question": "In which setting they achieve the state of the art?",
+        "answer": "in open-ended task esp. for counting-type questions ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1703.06492\\6-Table4-1.png",
+        "question_prep": "in which setting they achieve the state of the art?"
+    },
+    {
+        "question": "On what dataset is Aristo system trained?",
+        "answer": "Aristo Corpus\nRegents 4th\nRegents 8th\nRegents `12th\nARC-Easy\nARC-challenge ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.01958\\7-Table3-1.png",
+        "question_prep": "on what dataset is aristo system trained?"
+    },
+    {
+        "question": "How many roles are proposed?",
+        "answer": "12",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1806.07711\\6-Table2-1.png",
+        "question_prep": "how many roles are proposed?"
+    },
+    {
+        "question": "What language technologies have been introduced in the past?",
+        "answer": "- Font & Keyboard\n- Speech-to-Text\n- Text-to-Speech\n- Text Prediction\n- Spell Checker\n- Grammar Checker\n- Text Search\n- Machine Translation\n- Voice to Text Search\n- Voice to Speech Search",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1912.03457\\4-Table1-1.png",
+        "question_prep": "what language technologies have been introduced in the past?"
+    },
+    {
+        "question": "what were the baselines?",
+        "answer": "2008 Punyakanok et al. \n2009 Zhao et al. + ME \n2008 Toutanova et al. \n2010 Bjorkelund et al.  \n2015 FitzGerald et al. \n2015 Zhou and Xu \n2016 Roth and Lapata \n2017 He et al. \n2017 Marcheggiani et al.\n2017 Marcheggiani and Titov \n2018 Tan et al. \n2018 He et al. \n2018 Strubell et al. \n2018 Cai et al. \n2018 He et al. \n2018 Li et al. \n",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.05280\\2-Table1-1.png",
+        "question_prep": "what were the baselines?"
+    },
+    {
+        "question": "Which soft-selection approaches are evaluated?",
+        "answer": "LSTM and BERT ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.11297\\6-Table2-1.png",
+        "question_prep": "which soft-selection approaches are evaluated?"
+    },
+    {
+        "question": "How big is slot filing dataset?",
+        "answer": "Dataset has 1737 train, 497 dev and 559 test sentences.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.01680\\5-Table1-1.png",
+        "question_prep": "how big is slot filing dataset?"
+    },
+    {
+        "question": "How large is the dataset they generate?",
+        "answer": "4.756 million sentences",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1809.08298\\3-Table3-1.png",
+        "question_prep": "how large is the dataset they generate?"
+    },
+    {
+        "question": "Which existing models does this approach outperform?",
+        "answer": "RNN-context, SRB, CopyNet, RNN-distract, DRGD",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1805.04033\\8-Table3-1.png",
+        "question_prep": "which existing models does this approach outperform?"
+    },
+    {
+        "question": "What languages are represented in the dataset?",
+        "answer": "EN, JA, ES, AR, PT, KO, TH, FR, TR, RU, IT, DE, PL, NL, EL, SV, FA, VI, FI, CS, UK, HI, DA, HU, NO, RO, SR, LV, BG, UR, TA, MR, BN, IN, KN, ET, SL, GU, CY, ZH, CKB, IS, LT, ML, SI, IW, NE, KM, MY, TL, KA, BO",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.06748\\3-Table2-1.png",
+        "question_prep": "what languages are represented in the dataset?"
+    },
+    {
+        "question": "How faster is training and decoding compared to former models?",
+        "answer": "Proposed vs best baseline:\nDecoding: 8541 vs 8532 tokens/sec\nTraining: 8h vs 8h",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.08673\\7-Table4-1.png",
+        "question_prep": "how faster is training and decoding compared to former models?"
+    },
+    {
+        "question": "What datasets are used to evaluate the model?",
+        "answer": "WN18 and FB15k",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1611.04642\\5-Table1-1.png",
+        "question_prep": "what datasets are used to evaluate the model?"
+    },
+    {
+        "question": "What metadata is included?",
+        "answer": "besides claim, label and claim url, it also includes a claim ID, reason, category, speaker, checker, tags, claim entities, article title, publish data and claim date",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.03242\\1-Table1-1.png",
+        "question_prep": "what metadata is included?"
+    },
+    {
+        "question": "How much important is the visual grounding in the learning of the multilingual representations?",
+        "answer": "performance is significantly degraded without pixel data",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1905.12260\\7-Table1-1.png",
+        "question_prep": "how much important is the visual grounding in the learning of the multilingual representations?"
+    },
+    {
+        "question": "What is an example of a health-related tweet?",
+        "answer": "The health benefits of alcohol consumption are more limited than previously thought, researchers say",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.00439\\3-Figure1-1.png",
+        "question_prep": "what is an example of a health-related tweet?"
+    },
+    {
+        "question": "What is an example of a health-related tweet?",
+        "answer": "The health benefits of alcohol consumption are more limited than previously thought, researchers say",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.00439\\3-Figure1-1.png",
+        "question_prep": "what is an example of a health-related tweet?"
+    },
+    {
+        "question": "By how much does their method outperform the multi-head attention model?",
+        "answer": "Their average improvement in Character Error Rate over the best MHA model was 0.33 percent points.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1804.08050\\4-Table2-1.png",
+        "question_prep": "by how much does their method outperform the multi-head attention model?"
+    },
+    {
+        "question": "How large is the corpus they use?",
+        "answer": "449050",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1804.08050\\4-Table1-1.png",
+        "question_prep": "how large is the corpus they use?"
+    },
+    {
+        "question": "How many shared layers are in the system?",
+        "answer": "1",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.06424\\4-Table1-1.png",
+        "question_prep": "how many shared layers are in the system?"
+    },
+    {
+        "question": "How many additional task-specific layers are introduced?",
+        "answer": "2 for the ADE dataset and 3 for the CoNLL04 dataset",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2002.06424\\4-Table1-1.png",
+        "question_prep": "how many additional task-specific layers are introduced?"
+    },
+    {
+        "question": "How many layers of self-attention does the model have?",
+        "answer": "1, 4, 8, 16, 32, 64",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.05246\\8-Table6-1.png",
+        "question_prep": "how many layers of self-attention does the model have?"
+    },
+    {
+        "question": "Do they visualize the difference between AM-Softmax and regular softmax?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.10826\\4-Figure3-1.png",
+        "question_prep": "do they visualize the difference between am-softmax and regular softmax?"
+    },
+    {
+        "question": "what are the state of the art methods?",
+        "answer": "S2VT, RGB (VGG), RGB (VGG)+Flow (AlexNet), LSTM-E (VGG), LSTM-E (C3D) and Yao et al.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1606.04631\\4-Table2-1.png",
+        "question_prep": "what are the state of the art methods?"
+    },
+    {
+        "question": "Which four languages do they experiment with?",
+        "answer": "German, English, Italian, Chinese",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2003.07996\\2-Table1-1.png",
+        "question_prep": "which four languages do they experiment with?"
+    },
+    {
+        "question": "Does DCA or GMM-based attention perform better in experiments?",
+        "answer": "About the same performance",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.10288\\4-Table3-1.png",
+        "question_prep": "does dca or gmm-based attention perform better in experiments?"
+    },
+    {
+        "question": "What evaluation metric is used?",
+        "answer": "F1 and Weighted-F1",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.06083\\8-Table10-1.png",
+        "question_prep": "what evaluation metric is used?"
+    },
+    {
+        "question": "Is any data-to-text generation model trained on this new corpus, what are the results?",
+        "answer": "Yes, Transformer based seq2seq is evaluated with average BLEU 0.519, METEOR 0.388, ROUGE 0.631 CIDEr 2.531 and SER 2.55%.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.12129\\4-Table4-1.png",
+        "question_prep": "is any data-to-text generation model trained on this new corpus, what are the results?"
+    },
+    {
+        "question": "Do they report results only on English data?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1710.00341\\6-Figure3-1.png",
+        "question_prep": "do they report results only on english data?"
+    },
+    {
+        "question": "What dataset did they use?",
+        "answer": "weibo-100k, Ontonotes, LCQMC and XNLI",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.02821\\4-Table2-1.png",
+        "question_prep": "what dataset did they use?"
+    },
+    {
+        "question": "What are the 12 AV approaches which are examined?",
+        "answer": "MOCC, OCCAV, COAV, AVeer, GLAD, DistAV, Unmasking, Caravel, GenIM, ImpGI, SPATIUM and NNCD",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1906.10551\\6-Table2-1.png",
+        "question_prep": "what are the 12 av approaches which are examined?"
+    },
+    {
+        "question": "Does the Agent ask for a value of a variable using natural language generated text?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1708.01776\\3-Figure1-1.png",
+        "question_prep": "does the agent ask for a value of a variable using natural language generated text?"
+    },
+    {
+        "question": "What are the results achieved from the introduced method?",
+        "answer": "Their model resulted in values of 0.476, 0.672 and 0.893 for recall at position 1,2 and 5 respectively in 10 candidates.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1808.03430\\3-Table1-1.png",
+        "question_prep": "what are the results achieved from the introduced method?"
+    },
+    {
+        "question": "How big is performance improvement proposed methods are used?",
+        "answer": "Data augmentation (es)  improved Adv es by 20% comparing to baseline \nData augmentation (cs) improved Adv cs by 16.5% comparing to baseline\nData augmentation (cs+es) improved both Adv cs and Adv es by at least 10% comparing to baseline \nAll models show improvements over adversarial sets  \n",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.05153\\5-Table3-1.png",
+        "question_prep": "how big is performance improvement proposed methods are used?"
+    },
+    {
+        "question": "By how much does transfer learning improve performance on this task?",
+        "answer": "In task 1 best transfer learning strategy improves F1 score by 4.4% and accuracy score by 3.3%, in task 2 best transfer learning strategy improves F1 score by 2.9% and accuracy score by 1.7%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1811.02906\\6-Table2-1.png",
+        "question_prep": "by how much does transfer learning improve performance on this task?"
+    },
+    {
+        "question": "How much do they outperform previous state-of-the-art?",
+        "answer": "On subtask 3 best proposed model has F1 score of 92.18 compared to best previous F1 score of 88.58.\nOn subtask 4 best proposed model has 85.9, 89.9 and 95.6 compared to best previous results of 82.9, 84.0 and 89.9 on 4-way, 3-way and binary aspect polarity.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1903.09588\\5-Table4-1.png",
+        "question_prep": "how much do they outperform previous state-of-the-art?"
+    },
+    {
+        "question": "How much do they outperform previous state-of-the-art?",
+        "answer": "On subtask 3 best proposed model has F1 score of 92.18 compared to best previous F1 score of 88.58.\nOn subtask 4 best proposed model has 85.9, 89.9 and 95.6 compared to best previous results of 82.9, 84.0 and 89.9 on 4-way, 3-way and binary aspect polarity.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1903.09588\\5-Table5-1.png",
+        "question_prep": "how much do they outperform previous state-of-the-art?"
+    },
+    {
+        "question": "What are the citation intent labels in the datasets?",
+        "answer": "Background, extends, uses, motivation, compare/contrast, and future work for the ACL-ARC dataset. Background, method, result comparison for the SciCite dataset.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1904.01608\\4-Table2-1.png",
+        "question_prep": "what are the citation intent labels in the datasets?"
+    },
+    {
+        "question": "What accuracy score do they obtain?",
+        "answer": "the best performing model obtained an accuracy of 0.86",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.13066\\9-Table3-1.png",
+        "question_prep": "what accuracy score do they obtain?"
+    },
+    {
+        "question": "What is the 12 class bilingual text?",
+        "answer": "Appreciation, Satisfied, Peripheral complaint, Demanded inquiry, Corruption, Lagged response, Unresponsive, Medicine payment, Adverse behavior, Grievance ascribed and Obnoxious/irrelevant",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.13066\\3-Table1-1.png",
+        "question_prep": "what is the 12 class bilingual text?"
+    },
+    {
+        "question": "Was evaluation metrics and criteria were used to evaluate the output of the cascaded multimodal speech translation?",
+        "answer": "BLEU scores",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.13215\\5-Table1-1.png",
+        "question_prep": "was evaluation metrics and criteria were used to evaluate the output of the cascaded multimodal speech translation?"
+    },
+    {
+        "question": "What are the domains covered in the dataset?",
+        "answer": "Alarm\nBank\nBus\nCalendar\nEvent\nFlight\nHome\nHotel\nMedia\nMovie\nMusic\nRentalCar\nRestaurant\nRideShare\nService\nTravel\nWeather",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.05855\\3-Table2-1.png",
+        "question_prep": "what are the domains covered in the dataset?"
+    },
+    {
+        "question": "Which other unsupervised models are used for comparison?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1703.02507\\7-Table1-1.png",
+        "question_prep": "which other unsupervised models are used for comparison?"
+    },
+    {
+        "question": "Which other unsupervised models are used for comparison?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1703.02507\\7-Table2-1.png",
+        "question_prep": "which other unsupervised models are used for comparison?"
+    },
+    {
+        "question": "By how much does the new parser outperform the current state-of-the-art?",
+        "answer": "Proposed method achieves 94.5 UAS and 92.4 LAS  compared to 94.3 and 92.2 of best state-of-the -art greedy based parser. Best state-of-the art parser overall achieves 95.8 UAS and 94.6 LAS.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1710.09340\\4-Table2-1.png",
+        "question_prep": "by how much does the new parser outperform the current state-of-the-art?"
+    },
+    {
+        "question": "Could you tell me more about the metrics used for performance evaluation?",
+        "answer": "BLUE utilizes different metrics for each of the tasks: Pearson correlation coefficient, F-1 scores, micro-averaging, and accuracy",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1906.05474\\3-Table1-1.png",
+        "question_prep": "could you tell me more about the metrics used for performance evaluation?"
+    },
+    {
+        "question": "which tasks are used in BLUE benchmark?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1906.05474\\3-Table1-1.png",
+        "question_prep": "which tasks are used in blue benchmark?"
+    },
+    {
+        "question": "What's the precision of the system?",
+        "answer": "0.8320 on semantic typing, 0.7194 on entity matching",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1906.11180\\12-Table3-1.png",
+        "question_prep": "what's the precision of the system?"
+    },
+    {
+        "question": "What's the precision of the system?",
+        "answer": "0.8320 on semantic typing, 0.7194 on entity matching",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1906.11180\\13-Table4-1.png",
+        "question_prep": "what's the precision of the system?"
+    },
+    {
+        "question": "What are the performances obtained for PTB and CTB?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.06379\\4-Table3-1.png",
+        "question_prep": "what are the performances obtained for ptb and ctb?"
+    },
+    {
+        "question": "What are the performances obtained for PTB and CTB?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.06379\\4-Table4-1.png",
+        "question_prep": "what are the performances obtained for ptb and ctb?"
+    },
+    {
+        "question": "What are the performances obtained for PTB and CTB?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.06379\\4-Table5-1.png",
+        "question_prep": "what are the performances obtained for ptb and ctb?"
+    },
+    {
+        "question": "Is the proposed layer smaller in parameters than a Transformer?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.11365\\7-Table3-1.png",
+        "question_prep": "is the proposed layer smaller in parameters than a transformer?"
+    },
+    {
+        "question": "Is the proposed layer smaller in parameters than a Transformer?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.11365\\8-Table5-1.png",
+        "question_prep": "is the proposed layer smaller in parameters than a transformer?"
+    },
+    {
+        "question": "What are the four forums the data comes from?",
+        "answer": "Darkode,  Hack Forums, Blackhat and Nulled.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1708.09609\\7-Table3-1.png",
+        "question_prep": "what are the four forums the data comes from?"
+    },
+    {
+        "question": "What are the state-of-the-art models for the task?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.11951\\4-Table2-1.png",
+        "question_prep": "what are the state-of-the-art models for the task?"
+    },
+    {
+        "question": "What is the architecture of the model?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1805.12070\\3-Figure1-1.png",
+        "question_prep": "what is the architecture of the model?"
+    },
+    {
+        "question": "How much improvement do they get?",
+        "answer": "Their GTRS approach got an improvement of 3.89% compared to SVM and 27.91% compared to Pawlak.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\2004.03788\\10-Table7-1.png",
+        "question_prep": "how much improvement do they get?"
+    },
+    {
+        "question": "Is this approach compared to some baseline?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.10869\\4-Table2-1.png",
+        "question_prep": "is this approach compared to some baseline?"
+    },
+    {
+        "question": "What are the baselines?",
+        "answer": "CNN, LSTM, BERT",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.08962\\4-Table2-1.png",
+        "question_prep": "what are the baselines?"
+    },
+    {
+        "question": "Which models do they try out?",
+        "answer": "DocQA, SAN, QANet, ASReader, LM, Random Guess",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1810.12885\\8-Table4-1.png",
+        "question_prep": "which models do they try out?"
+    },
+    {
+        "question": "Do they compare executionttime of their model against other models?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.02086\\4-Table1-1.png",
+        "question_prep": "do they compare executionttime of their model against other models?"
+    },
+    {
+        "question": "Do they compare executionttime of their model against other models?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.02086\\4-Table2-1.png",
+        "question_prep": "do they compare executionttime of their model against other models?"
+    },
+    {
+        "question": "Which English domains do they evaluate on?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1810.02100\\38-Table2.3-1.png",
+        "question_prep": "which english domains do they evaluate on?"
+    },
+    {
+        "question": "What are the competing models?",
+        "answer": "TEACHER FORCING (TF), SCHEDULED SAMPLING (SS),  SEQGAN, RANKGAN, LEAKGAN.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1910.11235\\4-Table2-1.png",
+        "question_prep": "what are the competing models?"
+    },
+    {
+        "question": "What writing styles are present in the corpus?",
+        "answer": "current news, historical news, free time, sports, juridical news pieces, personal adverts, editorials.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1909.01247\\3-Table1-1.png",
+        "question_prep": "what writing styles are present in the corpus?"
+    },
+    {
+        "question": "What experiment result led to conclussion that reducing the number of layers of the decoder does not matter much?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.06151\\6-Table1-1.png",
+        "question_prep": "what experiment result led to conclussion that reducing the number of layers of the decoder does not matter much?"
+    },
+    {
+        "question": "How much is performance hurt when using too small amount of layers in encoder?",
+        "answer": "comparing to the results from reducing the number of layers in the decoder, the BLEU score was 69.93 which is less than 1% in case of test2016 and in case of test2017 it was less by 0.2 %. In terms of TER it had higher score by 0.7 in case of test2016 and 0.1 in case of test2017. ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1908.06151\\6-Table1-1.png",
+        "question_prep": "how much is performance hurt when using too small amount of layers in encoder?"
+    },
+    {
+        "question": "How much does HAS-QA improve over baselines?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1901.03866\\7-Table2-1.png",
+        "question_prep": "how much does has-qa improve over baselines?"
+    },
+    {
+        "question": "Which dataset do they evaluate grammatical error correction on?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1606.00189\\5-Table2-1.png",
+        "question_prep": "which dataset do they evaluate grammatical error correction on?"
+    },
+    {
+        "question": "Can the approach be generalized to other technical domains as well? ",
+        "answer": "There is no reason to think that this approach wouldn't also be successful for other technical domains. Technical terms are replaced with tokens, therefore so as long as there is a corresponding process for identifying and replacing technical terms in the new domain this approach could be viable.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1704.04521\\4-Figure2-1.png",
+        "question_prep": "can the approach be generalized to other technical domains as well? "
+    },
+    {
+        "question": "Can the approach be generalized to other technical domains as well? ",
+        "answer": "There is no reason to think that this approach wouldn't also be successful for other technical domains. Technical terms are replaced with tokens, therefore so as long as there is a corresponding process for identifying and replacing technical terms in the new domain this approach could be viable.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1704.04521\\5-Figure3-1.png",
+        "question_prep": "can the approach be generalized to other technical domains as well? "
+    },
+    {
+        "question": "Can the approach be generalized to other technical domains as well? ",
+        "answer": "There is no reason to think that this approach wouldn't also be successful for other technical domains. Technical terms are replaced with tokens, therefore so as long as there is a corresponding process for identifying and replacing technical terms in the new domain this approach could be viable.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1704.04521\\6-Figure4-1.png",
+        "question_prep": "can the approach be generalized to other technical domains as well? "
+    },
+    {
+        "question": "Which regions of the United States do they consider?",
+        "answer": "all regions except those that are colored black",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1803.09745\\10-Figure5-1.png",
+        "question_prep": "which regions of the united states do they consider?"
+    },
+    {
+        "question": "How large is the Dialog State Tracking Dataset?",
+        "answer": "1,618 training dialogs, 500 validation dialogs, and 1,117 test dialogs",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1605.07683\\3-Table1-1.png",
+        "question_prep": "how large is the dialog state tracking dataset?"
+    },
+    {
+        "question": "How much is the gap between using the proposed objective and using only cross-entropy objective?",
+        "answer": "The mixed objective improves EM by 2.5% and F1 by 2.2%",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1711.00106\\7-Table2-1.png",
+        "question_prep": "how much is the gap between using the proposed objective and using only cross-entropy objective?"
+    },
+    {
+        "question": "what are the three methods presented in the paper?",
+        "answer": "Optimized TF-IDF, iterated TF-IDF, BERT re-ranking.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1911.08976\\2-Table2-1.png",
+        "question_prep": "what are the three methods presented in the paper?"
+    },
+    {
+        "question": "what datasets did the authors use?",
+        "answer": "Kaggle\nSubversive Kaggle\nWikipedia\nSubversive Wikipedia\nReddit\nSubversive Reddit ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1812.01704\\8-Table7-1.png",
+        "question_prep": "what datasets did the authors use?"
+    },
+    {
+        "question": "How much performance improvements they achieve on SQuAD?",
+        "answer": "Compared to baselines SAN (Table 1) shows  improvement of 1.096% on EM and 0.689% F1. Compared to other published SQuAD results (Table 2) SAN is ranked second. ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1712.03556\\6-Table2-1.png",
+        "question_prep": "how much performance improvements they achieve on squad?"
+    },
+    {
+        "question": "How much performance improvements they achieve on SQuAD?",
+        "answer": "Compared to baselines SAN (Table 1) shows  improvement of 1.096% on EM and 0.689% F1. Compared to other published SQuAD results (Table 2) SAN is ranked second. ",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1712.03556\\6-Table1-1.png",
+        "question_prep": "how much performance improvements they achieve on squad?"
+    },
+    {
+        "question": "How many supervised tasks are used?",
+        "answer": "",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1612.09113\\2-Figure1-1.png",
+        "question_prep": "how many supervised tasks are used?"
+    },
+    {
+        "question": "What is the network architecture?",
+        "answer": "The network architecture has a multi-task Bi-Directional Recurrent Neural Network, with an unsupervised sequence labeling task and a low-dimensional embedding layer between tasks. There is a hidden layer after each successive task with skip connections to the senior supervised layers.",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1612.09113\\2-Figure1-1.png",
+        "question_prep": "what is the network architecture?"
+    },
+    {
+        "question": "How many feature maps are generated for a given triple?",
+        "answer": "3 feature maps for a given tuple",
+        "dir": "resources\\train_dev_figures_and_tables\\train\\1712.02121\\3-Figure1-1.png",
+        "question_prep": "how many feature maps are generated for a given triple?"
+    }
+]
