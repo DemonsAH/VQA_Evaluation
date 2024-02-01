@@ -63,7 +63,10 @@ class MatchingQAEvaluator:
             # adding options into elements
             options_comp = MatchingQAPair.get_options_comp(qap)
             options_comp_prep = MatchingQAPair.get_options_comp_prep(qap)
+            answer_comp = ""
             for i in range(len(options_comp)):
+                if options_comp[i] == Figure.get_caption(qap.answer):
+                    answer_comp = chr(i + 65)
                 options_comp[i] = chr(i + 65) + ". " + options_comp[i]
             for j in range(len(options_comp_prep)):
                 options_comp_prep[j] = chr(j + 65) + ". " + options_comp_prep[j]
@@ -72,7 +75,7 @@ class MatchingQAEvaluator:
             qap_dict['options_comp'] = options_comp
             qap_dict['options_comp_prep'] = options_comp_prep
             qap_dict['answer'] = Figure.get_dir(qap.answer)
-            qap_dict['answer_comp'] = Figure.get_caption(qap.answer)
+            qap_dict['answer_comp'] = answer_comp
             qap_dicts.append(qap_dict)
         matching_write_json(qap_dicts)
             # answer_comp = self.run_model(question_comp, self.blank_png)
