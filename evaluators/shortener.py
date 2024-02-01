@@ -1,3 +1,5 @@
+import string
+
 import constants
 import nltk
 from nltk.tokenize import word_tokenize
@@ -9,9 +11,9 @@ class Shortener:
         self.max_words = constants.qasper_context_len
         self.max_subsent = constants.matching_caption_max_subsent
 
-    def shorten_words(self, string):
+    def shorten_words(self, words):
         nltk.download('punkt')  # Download the punkt tokenizer if not already downloaded
-        tokens = word_tokenize(string)
+        tokens = word_tokenize(words)
         for i in range(len(tokens)):
             punctation_count = 0
             if tokens[i] in string.punctation:
