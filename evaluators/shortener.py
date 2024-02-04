@@ -11,6 +11,17 @@ class Shortener:
         self.max_words = constants.qasper_context_len
         self.max_subsent = constants.matching_caption_max_subsent
 
+    def remove_fig_name(self, name):
+        tokens = word_tokenize(name)
+        result = ''
+        for i in range(len(tokens)):
+            if tokens[i] in constants.qasper_fig_tab_tokens:
+                if tokens[i + 1] in constants.roman_nums or tokens[i + 1].isnumeric():
+                    result = ' '.join(tokens[i + 3:])
+                elif tokens[i + 1] == '.' and (tokens[i + 2] in constants.roman_nums or tokens[i + 2].isnumeric()):
+                    result = ' '.join(tokens[i + 4])
+        return result
+
     def shorten_words(self, words):
         # nltk.download('punkt')  # Download the punkt tokenizer if not already downloaded
         tokens = word_tokenize(words)

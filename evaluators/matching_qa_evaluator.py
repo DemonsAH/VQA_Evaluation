@@ -72,10 +72,12 @@ class MatchingQAEvaluator:
                 options_comp[i] = chr(i + 65) + ". " + options_comp[i]
             for j in range(len(options_comp_prep)):
                 options_comp_prep[j] = chr(j + 65) + ". " + options_comp_prep[j]
+            options_comp_prep_chal = MatchingQAPair.get_options_comp_prep_chal(qap)
             options_dir = MatchingQAPair.get_options_dir(qap)
             qap_dict['options'] = options_dir
             qap_dict['options_comp'] = options_comp
             qap_dict['options_comp_prep'] = options_comp_prep
+            qap_dict['options_comp_prep_chal'] = options_comp_prep_chal
             qap_dict['answer'] = Figure.get_dir(qap.answer)
             qap_dict['answer_comp'] = answer_comp
             qap_dicts.append(qap_dict)

@@ -34,6 +34,10 @@ class MatchingQAPair:
             result.append(Shortener.shorten_words(shortener, Preprocessor.process(prep, option_str)))
         return result
 
+    def get_options_comp_prep_chal(self):
+        shortener = Shortener()
+        return Shortener.remove_fig_name(shortener, self.get_options_comp_prep())
+
     def get_options_dir(self):
         result = []
         for option in self.options:
