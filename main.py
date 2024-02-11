@@ -7,6 +7,7 @@ from transformers import Pix2StructProcessor, Pix2StructForConditionalGeneration
 import constants
 from evaluators.evidence_qa_evaluator import EviQAEvaluator
 from evaluators.matching_qa_evaluator import MatchingQAEvaluator
+from evaluators.shortener import Shortener
 from generators.mqag_generator import MQAGGenerator
 from readers.article import Article
 from readers.figure import Figure
@@ -43,6 +44,10 @@ def general_test():
     matching_qap_test(articles)
     # mqag_generate_test()
     evidence_qap_test(articles)
+    # test_str = "A. fig. 3: dev set wers for density ratio lm scaling factor vs. sequence length scaling factor . here."
+    # test_shortener = Shortener()
+    # result = Shortener.remove_fig_name(test_shortener, test_str)
+    # print("result:" + result)
     # TODO some regex test demo
     # text = "FIGREF1gui"
     # print(re.match(r'(.*)FIGREF([0-9]+)(.*)', text))

@@ -13,13 +13,35 @@ class Shortener:
 
     def remove_fig_name(self, name):
         tokens = word_tokenize(name)
+        # for tests
+        # print(tokens)
         result = ''
-        for i in range(len(tokens)):
+
+        def is_num_with_dot(substring):
+            parts = substring.split('.')
+            if len(parts) < 2:
+                return False
+            if (parts[0] in constants.roman_nums or parts[0].isnumeric()) and parts[1] == '':
+                return True
+            else:
+                return False
+
+        def is_num(substring):
+            return substring.isnumeric() or substring in constants.roman_nums
+
+        for i in range(len(tokens) - 3):
             if tokens[i] in constants.qasper_fig_tab_tokens:
-                if tokens[i + 1] in constants.roman_nums or tokens[i + 1].isnumeric():
-                    result = ' '.join(tokens[i + 3:])
-                elif tokens[i + 1] == '.' and (tokens[i + 2] in constants.roman_nums or tokens[i + 2].isnumeric()):
-                    result = ' '.join(tokens[i + 4])
+                if tokens[i + 1] == '.' or tokens[i + 1] == ':':
+                    if is_num(tokens[i + 2]) or is_num_with_dot(tokens[i + 2]):
+                        result = ' '.join(tokens[(i + 3):])
+                if is_num(tokens[i + 1]) or is_num_with_dot(tokens[i + 1]):
+                    if tokens[i + 2] == ":":
+                        result = ' '.join(tokens[(i + 3):])
+                    else:
+                        result = ' '.join(tokens[(i + 2):])
+                    break
+        # if result == '':
+        #     raise RuntimeError("fig token not detected.")
         return result
 
     def shorten_words(self, words):

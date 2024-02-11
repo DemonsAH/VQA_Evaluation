@@ -29,7 +29,7 @@ matching_caption_max_subsent = 2
 
 qasper_fig_name_divider = ":"
 
-qasper_fig_tab_tokens = ['Fig.', 'fig.', 'Figure', 'figure', 'TABLE', 'FIGURE', 'FIG.', 'Table', 'table', 'Tab.', 'tab.']
+qasper_fig_tab_tokens = ['Fig', 'fig', 'Figure', 'figure', 'TABLE', 'FIGURE', 'FIG', 'Table', 'table', 'Tab', 'tab']
 
 roman_nums = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV',
               'i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi', 'xii', 'xiii', 'xiv', 'xv']
