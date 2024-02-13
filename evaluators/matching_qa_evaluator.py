@@ -21,8 +21,8 @@ def get_option_symbols():
     return symbols, end
 
 
-def matching_write_json(qap_dicts):
-    with open(constants.matching_write_json_path, 'w') as r:
+def matching_write_json(qap_dicts, directory):
+    with open(directory, 'w') as r:
         json.dump(qap_dicts, r, indent=4)
         # for qap_dict in qap_dicts:
         #     json.dump(qap_dict, r, indent=4)
@@ -33,17 +33,19 @@ class MatchingQAEvaluator:
 
     def __init__(self, articles):
         self.generator = MatchingQAPairGenerator(articles)
+        self.generator = MatchingQAPairGenerator(articles)
         self.qaps = self.generator.qaps
+        self.qaps_simi_cap = self.generator.qaps_simi_cap
         self.blank_png = Image.open(constants.blank_png_dir)
         self.preprocessor = Preprocessor()
         self.shortener = Shortener()
 
-    def evaluate(self):
+    def evaluate(self, qaps, directory):
         # qap_count = 0
         # qap_correct = 0
         # qap_comp_correct = 0
         qap_dicts = []
-        for qap in self.qaps:
+        for qap in qaps:
             qap_dict = {}
             # option_num = len(qap.options)
             # symbols, end = get_option_symbols()
@@ -81,7 +83,7 @@ class MatchingQAEvaluator:
             qap_dict['answer'] = Figure.get_dir(qap.answer)
             qap_dict['answer_comp'] = answer_comp
             qap_dicts.append(qap_dict)
-        matching_write_json(qap_dicts)
+        matching_write_json(qap_dicts, directory)
             # answer_comp = self.run_model(question_comp, self.blank_png)
             # qap_count += 1
             # if MatchingQAPair.judge(qap, answer):

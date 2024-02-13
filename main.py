@@ -173,7 +173,8 @@ def general_test():
 
 def matching_qap_test(articles):
     evaluator = MatchingQAEvaluator(articles)
-    evaluator.evaluate()
+    evaluator.evaluate(evaluator.qaps, constants.matching_write_json_path)
+    evaluator.evaluate(evaluator.qaps_simi_cap, constants.simi_matching_write_json_path)
     print("matching_qap.json output finished")
     # print("%d question answer pairs in general" % gcount)
     # print("%d pairs answered correct with figures" % bcount)

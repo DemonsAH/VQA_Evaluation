@@ -24,6 +24,7 @@ qasper_fig_token = 'FIGREF'
 
 evi_write_json_path = "resources\\evi_qaps.json"
 matching_write_json_path = "resources\\matching_qaps.json"
+simi_matching_write_json_path = "resources\\simi_matching_qaps.json"
 
 matching_caption_max_subsent = 2
 
