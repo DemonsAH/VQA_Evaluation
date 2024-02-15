@@ -1,13 +1,21 @@
 import re
 from word2number import w2n
+import string
 
 
 class Preprocessor:
 
     def convert_words_to_numbers(self, sentence):
         # 使用正则表达式找到所有包含数字单词的部分
-        pattern = re.compile(r'\b(?:' + '|'.join(w2n.words) + r')\b', re.IGNORECASE)
+        # pattern = re.compile(r'\b(?:' + '|'.join(w2n.words) + r')\b', re.IGNORECASE)
+        # pattern = (r'\b(?:zero | one | two | three | four | five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty | thirty | forty | fifty | sixty | seventy | eighty | ninety)(?:-(?:one | two | three | four | five | six | seven | eight | nine))?+\b')
+        # pattern = re.compile(r'\b(?:zero | one | two | three | four | five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty | thirty | forty | fifty | sixty | seventy | eighty | ninety)(?:-(?:one | two | three | four | five | six | seven | eight | nine))\b', re.IGNORECASE)
+        pattern = re.compile(r'\b(((twenty|thirty|fourty|fifty|sixty|seventy|eighty|ninety)-)?(one|two| three | four | five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen))|zero(?!\S)', re.IGNORECASE)
+        # pattern = r"\b(((twenty|thirty|fourty|fifty|sixty|seventy|eighty|ninety)-)?(one|two| three | four | five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen))|zero(?!\S)"
+        # pattern = r'\b(zero | one | two | three | four | five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty | thirty | forty | fifty | sixty | seventy | eighty | ninety)?(-(one | two | three | four | five | six | seven | eight | nine))?\b'
+
         matches = re.finditer(pattern, sentence)
+        # matches = re.findall(pattern, sentence)
 
         # 逐一替换每个匹配项为对应的阿拉伯数字
         for match in matches:
@@ -39,34 +47,34 @@ class Preprocessor:
         self.add_apostrophe_switch = add_apo
         self.replace_punctuation_switch = rpl_punct
 
-    def process(self, string):
-        if not isinstance(string, str):
+    def process(self, pre_string):
+        if not isinstance(pre_string, str):
             raise RuntimeError("Input for process() should be str. ")
-        temp = string
+        temp = pre_string
         if self.lowercase_switch:
             temp = temp.lower()
-        elif self.num_convert_switch:
+        if self.num_convert_switch:
             # TODO test the function
             temp = self.convert_words_to_numbers(temp)
-        elif self.remove_periods_switch:
+        if self.remove_periods_switch:
             temp = temp.replace('. ', ' ')
-        elif self.remove_articles_switch:
-            temp = temp.replace(' a ', ' ')
-            temp = temp.replace(' an ', ' ')
-            temp = temp.replace(' the ', ' ')
-        elif self.add_apostrophe_switch:
-            temp = temp.replace(' dont ', ' don\'t')
-            temp = temp.replace(' cant ', ' can\'t')
-            temp = temp.replace(' wont ', ' won\'t')
-            temp = temp.replace(' shouldnt ', ' shouldn\'t')
-            temp = temp.replace(' im ', ' i\'m')
-            temp = temp.replace(' youre ', ' you\'re')
-            temp = temp.replace(' shes ', ' she\'s')
-            temp = temp.replace(' hes ', ' he\'s')
+        if self.remove_articles_switch:
+            temp = temp.replace('a ', ' ')
+            temp = temp.replace('an ', ' ')
+            temp = temp.replace('the ', ' ')
+        if self.add_apostrophe_switch:
+            temp = temp.replace(' dont', ' don\'t')
+            temp = temp.replace(' cant', ' can\'t')
+            temp = temp.replace(' wont', ' won\'t')
+            temp = temp.replace(' shouldnt', ' shouldn\'t')
+            temp = temp.replace(' im', ' i\'m')
+            temp = temp.replace(' youre', ' you\'re')
+            temp = temp.replace(' shes', ' she\'s')
+            temp = temp.replace(' hes', ' he\'s')
             temp = temp.replace(' wouldve ', ' would\'ve')
             # more replacement needed or use an API for that
-        elif self.replace_punctuation_switch:
-            translator = string.maketrans(string.punctuation, ' ' * len(string.punctuation))
+        if self.replace_punctuation_switch:
+            translator = pre_string.maketrans(string.punctuation, ' ' * len(string.punctuation))
             temp = temp.translate(translator)
         return temp
 

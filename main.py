@@ -7,6 +7,7 @@ from transformers import Pix2StructProcessor, Pix2StructForConditionalGeneration
 import constants
 from evaluators.evidence_qa_evaluator import EviQAEvaluator
 from evaluators.matching_qa_evaluator import MatchingQAEvaluator
+from evaluators.preprocessor import Preprocessor
 from evaluators.shortener import Shortener
 from generators.mqag_generator import MQAGGenerator
 from readers.article import Article
@@ -36,22 +37,33 @@ def general_test():
     # vertex_ai_init(None, None)
     # vertex_ai_test()
     # first step to test qasper
+
+    # preprocessor_test()
+
     articles = qasper_read_test()
+
     # BLIP_test()
     # calculate and show some basic infos about qasper
     # count_and_show(articles)
+
     seperate()
+
+    # preprocessor_test()
+
     matching_qap_test(articles)
+
     # mqag_generate_test()
-    evidence_qap_test(articles)
+
+    # evidence_qap_test(articles)
+
     # test_str = "A. fig. 3: dev set wers for density ratio lm scaling factor vs. sequence length scaling factor . here."
     # test_shortener = Shortener()
     # result = Shortener.remove_fig_name(test_shortener, test_str)
     # print("result:" + result)
+
     # TODO some regex test demo
     # text = "FIGREF1gui"
     # print(re.match(r'(.*)FIGREF([0-9]+)(.*)', text))
-
 
     # TODO demo test for tokenizer
     # text = "This is a sample text. It has multiple sentences."
@@ -174,12 +186,23 @@ def general_test():
 def matching_qap_test(articles):
     evaluator = MatchingQAEvaluator(articles)
     evaluator.evaluate(evaluator.qaps, constants.matching_write_json_path)
-    evaluator.evaluate(evaluator.qaps_simi_cap, constants.simi_matching_write_json_path)
     print("matching_qap.json output finished")
+    # evaluator.evaluate(evaluator.qaps_simi_cap, constants.simi_matching_write_json_path)
+    # print("simi_matching_qap.json output finished")
+
     # print("%d question answer pairs in general" % gcount)
     # print("%d pairs answered correct with figures" % bcount)
     # print("In comparison, %d pairs answered correct with captions" % ccount)
 
+
+def preprocessor_test():
+    test_preprocessor = Preprocessor()
+    test_str = "Here is a description of a figure:\nAs shown in Figure FIGREF1, we limit our scope to two discourse relations: Cause and Concession.\nAnswer this multiple choice question: Based on the provided description of a figure, please select the most suitable image. Answer only with the option ID. Here are the options:"
+    # print("---")
+    # print(re.findall(r"\btest\b", "testing"))
+    # print("---")
+    print(Preprocessor.process(test_preprocessor, test_str))
+    # print("a cat. ".replace(". ", " "))
 
 def evidence_qap_test(articles):
     evaluator = EviQAEvaluator(articles)

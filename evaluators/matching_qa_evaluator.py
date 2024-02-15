@@ -33,7 +33,6 @@ class MatchingQAEvaluator:
 
     def __init__(self, articles):
         self.generator = MatchingQAPairGenerator(articles)
-        self.generator = MatchingQAPairGenerator(articles)
         self.qaps = self.generator.qaps
         self.qaps_simi_cap = self.generator.qaps_simi_cap
         self.blank_png = Image.open(constants.blank_png_dir)
@@ -49,7 +48,8 @@ class MatchingQAEvaluator:
             qap_dict = {}
             # option_num = len(qap.options)
             # symbols, end = get_option_symbols()
-            prep_question = Shortener.shorten_words(self.shortener, Preprocessor.process(self.preprocessor, qap.question))
+            short_question = Shortener.shorten_words(self.shortener,qap.question)
+            prep_question = Preprocessor.process(self.preprocessor, short_question)
             # heading = "Give the order of the right figure that match the given reference:"
             prefix = "Here is a description of a figure:\n"
             surfix = "\nAnswer this multiple choice question: Based on the provided description of a figure, please select the most suitable image. Answer only with the option ID. Here are the options:"
